@@ -1,13 +1,10 @@
-import ComingSoon from "@/components/ComingSoon";
-import Header from "@/components/Header"
-import Homepage from "@/components/Homepage";
+
+import HeroBanner from "@/components/HeroBanner";
 
 export default function Home() {
   return (
     <main>
-      <Header />
-      <Homepage />
-      <ComingSoon />
+      <HeroBanner imgUrl={'/Mainpage_GroupPhoto.jpg'} title={'Society of Hispanic Professional Engineers'} subtitle={"California Polytechnic State University - San Luis Obispo"} bg={'bg-shpe-officers'}/>
     </main>
   );
 }
