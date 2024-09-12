@@ -7,7 +7,7 @@ export default function Header() {
                 className="w-1/5 h-auto"
                 alt="SHPE Cal Poly Logo"
             />
-            <div className="absolute hidden md:flex right-0 transform -translate-y-1/2 top-1/2" >
+            <div className="absolute justify-between hidden md:flex right-0 transform -translate-y-1/2 top-1/2" >
                 <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Members</button>
                 <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Officers</button>
                 <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Partners</button>
