@@ -1,17 +1,21 @@
+import Link from 'next/link'
+
 export default function Header() {
 
     return (
         <div className="bg-[#001F5B] py-2 px-3 border-b border-white border-opacity-50 relative">
-            <img
-                src="/SHPE_Calpoly_logo.png"
-                className="w-1/5 h-auto"
-                alt="SHPE Cal Poly Logo"
-            />
+            <Link href="..">
+                <img
+                    src="/SHPE_Calpoly_logo.png"
+                    className="w-1/5 h-auto"
+                    alt="SHPE Cal Poly Logo"
+                />
+            </Link>
             <div className="absolute justify-between hidden md:flex right-0 transform -translate-y-1/2 top-1/2" >
                 <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Members</button>
-                <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Officers</button>
-                <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Partners</button>
-                <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> About Us</button>
+                <Link href="/officers" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Officers</Link>
+                <Link href="/sponsor" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> Partners</Link>
+                <Link href="/about" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] md:mr-2 mr-1"> About Us</Link>
                 <button className="text-white bg-[#FD652F] rounded lg:text-[14px] text-[11px] md:mr-2 mr-1 px-1 md:py-0.5 py-0.25">
                     Become a Member
                 </button>

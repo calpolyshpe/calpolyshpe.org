@@ -4,7 +4,6 @@ export default function HeroBanner({ imgUrl, title, subtitle }) {
     return (
         
         <div className="bg-[#001F5B] w-auto mx-auto relative">
-            
             <img
                 src={imgUrl}
                 className="opacity-45 object-cover"

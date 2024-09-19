@@ -1,6 +1,6 @@
 export default function LightBlueWPic({ imgURL, title, content }) {
     return (
-        <div className="bg-[#001F5B] h-screen relative md:pt-14">
+        <div className="bg-[#001F5B] relative md:pt-14">
             <div className="bg-[#72A9BE] hidden w-full h-96 md:flex items-center justify-center">
                 <div className="flex justify-between items-center w-[850px] h-auto md:my-14 my-6">
                     <div className="w-80 h-auto  flex flex-col justify-center items-center">

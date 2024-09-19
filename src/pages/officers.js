@@ -1,3 +1,5 @@
+import OfficerCard from "@/components/OfficerCard";
+
 export default function Officers() {
     return (
       <main>
@@ -7,6 +9,7 @@ export default function Officers() {
                 </h1>
                 
         </div>
+        <OfficerCard />
       </main>
     );
   }
