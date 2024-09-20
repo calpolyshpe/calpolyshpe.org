@@ -14,8 +14,7 @@ export default function About() {
                 3. Improving the quality of education and training programs for preparing Hispanic students to become professionals.`} imgURL={'/Glassup.png'} />
             <RegularText text={"Ever since its founding, the members of Cal Poly SHPE have worked to ensure the community of Hispanic/Latinx members at California Polytechnic State University are able to find their home away from home, helping them progress through their time here at Cal Poly and in their future positions as well."} />
             <WhatIs question={"SHPE History"} response={"The Society of Hispanic Professional Engineers (SHPE) was founded in Los Angeles, California, in 1974 by a group of engineers employed by the city of Los Angeles. Their objective was to form a national organization of professional engineers to serve as role models in the Hispanic community. The concept of Networking was the key basis for the organization. SHPE quickly established two student chapters to begin the network that would grow to encompass the nation as well as reach countries outside the United States. Today, SHPE enjoys a strong but independent network of professional and student chapters throughout the nation."} />
-            {/* <WhatIs question={"SHPE Values"}/> */}
-            <div className="bg-[#001F5B] flex justify-center items-center">
+            <div className="bg-[#001F5B] flex justify-center items-center md:pb-16 pb-10">
                 <div className="lg:w-3/5 w-3/4 h-auto">
                     <h1 className="text-white lg:text-3xl md:text-xl text-[13px] font-medium font-serif italic border-white border-t border-opacity-15 md:pt-14 pt-6">
                         SHPE Values </h1>

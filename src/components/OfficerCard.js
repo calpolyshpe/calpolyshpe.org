@@ -12,13 +12,13 @@ export default function OfficerCard() {
         <div className="bg-[#001F5B] flex flex-col justify-center items-center">
 
             {SHPEboard.map((officer, index) => (
-                <div className=" hidden lg:flex justify-center items-center w-3/4 md:py-12 py-6 border-b border-white border-opacity-15">
+                <div key={index} className=" hidden lg:flex justify-center items-center w-3/4 md:py-12 py-6 border-b border-white border-opacity-15">
                     <img
                         src={officer.picture}
                         alt={officer.name}
                         className="w-72 h-96 object-cover left-0"
                     />
-                    <div key={index} className="w-[800px] h-auto flex flex-col justify-center p-3 ml-12">
+                    <div className="w-[800px] h-auto flex flex-col justify-center p-3 ml-12">
                         <h1 className="text-white font-bold text-2xl font-sans mb-3">{officer.role}</h1>
                         <h2 className="text-white text-lg mb-1">{officer.name}</h2>
                         <h3 className="text-white text-lg mb-1">{officer.major}</h3>
