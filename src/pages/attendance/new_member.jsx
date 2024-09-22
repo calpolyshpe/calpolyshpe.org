@@ -5,7 +5,7 @@ export default function NewMember() {
   const [readyToScan, setReadyToScan] = useState(false);
   const inputRef = useRef(null);
 
-  const [member, setMember] = useState({
+  const initialMemberState = {
     firstName: "",
     lastName: "",
     schoolEmail: "",
@@ -15,8 +15,9 @@ export default function NewMember() {
     gradeLevel: "", // New field for grade level
     isTransferStudent: false, // New field for transfer status
     isPaidMember: false, // Default field for paid membership
-  });
+  };
 
+  const [member, setMember] = useState(initialMemberState);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -58,6 +59,19 @@ export default function NewMember() {
         isPaidMember: false, // Default value
       });
     }
+  }
+
+  function resetForm() {
+    // Reset all fields
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setMajor("");
+    setGradeLevel("");
+    setIsTransferStudent(false);
+    setIsOtherMajor(false);
+    setMember(initialMemberState);
+    setReadyToScan(false); // Reset scan status
   }
 
   return (
@@ -189,6 +203,7 @@ export default function NewMember() {
                 insertRowToDatabase("members", member).then((response) => {
                   if (response.success) {
                     console.log("Row inserted successfully:", response.data);
+                    resetForm(); // Reset the form after a successful submission
                   } else {
                     console.error("Failed to insert row:", response.error);
                   }
