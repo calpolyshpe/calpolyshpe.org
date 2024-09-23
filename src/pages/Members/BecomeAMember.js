@@ -13,7 +13,7 @@ export default function Calendar() {
                     <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:ml-14 ml-4">
                         SHPE national dues</button>
                 </div>
-                <h1 className="text-white flex justify-center lg:w-3/5 w-3/4 h-auto lg:text-xl md:text-sm text-[9px] font-sans md:mt-6 mt-3" >Check out our calendar to see when our next meeting will occur and how you can get involved!</h1>
+                <h1 className="text-white flex justify-center lg:w-3/5 w-3/4 h-auto lg:text-xl md:text-sm text-[9px] font-sans md:mt-6 mt-3 pb-10" >Check out our calendar to see when our next meeting will occur and how you can get involved!</h1>
             </div>
             {/* // <div className=" bg-[#001F5B] h-screen flex flex-col items-center justify-center">
 
