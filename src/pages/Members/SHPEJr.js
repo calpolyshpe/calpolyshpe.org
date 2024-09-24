@@ -40,7 +40,7 @@ export default function SHPEJr() {
 
             </div>
             <LightBlueWPic title={"Noche De Ciencas"} content={"This past May 2022, our SHPE JR Committee hosted our annual Noche de Ciencias, with over 70 SHPE Jr participants joining and 30 SHPE Cal Poly SLO volunteers. The local family science night is designed to inspire Hispanic high school students to pursue STEM careers while also educating their parents on how to support their child’s goals."} imgURL={"/SHPEJrImgs/NDC flyer.png"}/>
-            <div className="bg-[#001F5B] flex flex-col justify-center items-center md:p-16 p-6">
+            <div className="bg-[#001F5B] flex flex-col justify-center items-center md:p-11 p-6">
                 
             </div>
         </main>
