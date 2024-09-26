@@ -9,9 +9,8 @@ export default function Document() {
       <body>
         <Header/>
         <Main />
-
         <NextScript />
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </Html>
   );

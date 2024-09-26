@@ -1,7 +1,7 @@
 import HeroBanner from "@/components/HeroBanner";
 import WhatIs from "@/components/WhatIs";
 
-export default function Calendar() {
+export default function BecomeAMember() {
     return (
         <main>
             <HeroBanner title={"Become a Member"} imgUrl={"/Become.jpg"}/>
