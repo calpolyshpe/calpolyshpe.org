@@ -5,7 +5,7 @@ export default function Header() {
   const [showMobileMenu, setMobileMenu] = useState("false");
 
   return (
-    <div className="bg-[#001F5B] py-5 px-3 border-b border-white border-opacity-50">
+    <div className="bg-[#001F5B] md:h-20 md:py-0 md:px-0 py-2.5 px-2.5 border-b border-white border-opacity-50">
       <div className="flex flex-col md:flex-row md:justify-between md:items-center">
         <div className="w-full md:w-auto mb-4 md:mb-0 flex justify-center md:justify-start">
           <Link href="/">
@@ -17,9 +17,9 @@ export default function Header() {
           </Link>
         </div>
         <div className="hidden md:flex flex-col md:flex-row md:items-center md:space-x-6">
-          <div className="relative group">
+          <div className="relative group h-20">
             <button
-              className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] focus:outline-none w-16"
+              className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] focus:outline-none w-16 h-20"
               onClick={() => {
                 setMobileMenu("true");
                 console.log(showMobileMenu);
@@ -27,7 +27,7 @@ export default function Header() {
             >
               Members
             </button>
-            <div className="hidden absolute mt-1 bg-white shadow-lg rounded-md text-black p-2 w-40 z-10 group-hover:block">
+            <div className="hidden absolute mb-5 bg-white shadow-lg rounded-md text-black p-2 w-40 z-10 group-hover:block">
               <Link href="/members/calendar">
                 <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
                   Calendar
