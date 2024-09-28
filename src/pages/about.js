@@ -24,9 +24,7 @@ export default function About() {
         }
       />
       <LightBlueWPic
-        content={`1. Increasing the number of Hispanics entering the fields of engineering, science, or any other professions. 
-                2. Providing recruitment and tutoring programs for students interested in pursuing a college education. 
-                3. Improving the quality of education and training programs for preparing Hispanic students to become professionals.`}
+        content={`1. Increasing the number of Hispanics entering the fields of engineering, science, or any other professions. 2. Providing recruitment and tutoring programs for students interested in pursuing a college education. 3. Improving the quality of education and training programs for preparing Hispanic students to become professionals.`}
         imgURL={"/Glassup.png"}
       />
       <RegularText

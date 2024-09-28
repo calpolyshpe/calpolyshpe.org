@@ -125,10 +125,10 @@ export default function OfficerCard() {
             alt={officer.name}
             width={288}
             height={384}
-            objectFit="cover"
-            className="w-72 h-96"
+            className="w-72 h-96 max-w-full max-h-full object-cover aspect-[3/4]"
             priority
           />
+
           <div className="w-[800px] h-auto flex flex-col justify-center p-6 ml-12">
             <h1 className="text-white font-bold text-2xl font-sans mb-4">
               {officer.role}
@@ -151,10 +151,8 @@ export default function OfficerCard() {
           <Image
             src={officer.picture}
             alt={officer.name}
-            layout="responsive"
             width={384}
             height={512}
-            objectFit="cover"
             priority
           />
 
