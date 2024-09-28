@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function OfficerCard() {
   // { 'name': '', 'role': '', 'email': '', 'major':'','picture': '/Officer_Pics/.jpg', 'blurb': '' }
 
@@ -26,7 +28,8 @@ export default function OfficerCard() {
       email: "calpolyshpe.webmaster@gmail.com",
       major: "Computer Science",
       picture: "/Officer_Pics/Julissa.jpg",
-      blurb: "\nHey everyone, I’m Julissa your SHPE webmaster for the year! My major is computer science and in my free time I like exploring new places or being outdoorsy. I’m also a transfer student, who works at the Transfer center so if you have any transfer related questions feel free to ask me! Fun fact, If you’re currently reading this that means you're on the website that I have designed and built for the club! My goal for this school year as webmaster is to make sure that the website gets updated, looks presentable, and represents what we stand for as a club. I’m looking forward to seeing you all at our meetings and events!",
+      blurb:
+        "\nHey everyone, I’m Julissa your SHPE webmaster for the year! My major is computer science and in my free time I like exploring new places or being outdoorsy. I’m also a transfer student, who works at the Transfer center so if you have any transfer related questions feel free to ask me! \n\nFun fact, If you’re currently reading this that means you're on the website that I have designed and built for the club! My goal for this school year as webmaster is to make sure that the website gets updated, looks presentable, and represents what we stand for as a club. I’m looking forward to seeing you all at our meetings and events!",
     },
     {
       name: "Yitzel Vazquez",
@@ -117,10 +120,14 @@ export default function OfficerCard() {
           key={index}
           className="hidden lg:flex justify-center items-center w-3/4 md:py-12 py-6 border-b border-white border-opacity-15"
         >
-          <img
+          <Image
             src={officer.picture}
             alt={officer.name}
-            className="w-72 h-96 object-cover"
+            width={288}
+            height={384}
+            objectFit="cover"
+            className="w-72 h-96"
+            priority
           />
           <div className="w-[800px] h-auto flex flex-col justify-center p-6 ml-12">
             <h1 className="text-white font-bold text-2xl font-sans mb-4">
@@ -141,10 +148,14 @@ export default function OfficerCard() {
           key={index}
           className="lg:hidden flex flex-col items-center w-11/12 md:py-8 py-4 border-b border-white border-opacity-15"
         >
-          <img
+          <Image
             src={officer.picture}
             alt={officer.name}
-            className="w-full h-auto max-w-xs mb-6 object-cover"
+            layout="responsive"
+            width={384}
+            height={512}
+            objectFit="cover"
+            priority
           />
 
           <div className="w-full flex flex-col justify-center p-4">
