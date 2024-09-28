@@ -53,7 +53,7 @@ export default function Header() {
               About Us
             </button>
           </Link>
-          <Link href="/Members/become_a_member">
+          <Link href="/Members/BecomeAMember">
             <button className="text-white bg-[#FD652F] rounded lg:text-[14px] text-[11px] px-3 py-1 hover:bg-white hover:text-[#001F5B] mt-2 md:mt-0 w-40">
               Become a Member
             </button>
@@ -98,7 +98,7 @@ export default function Header() {
             About Us
           </button>
         </Link>
-        <Link href="/Members/become_a_member">
+        <Link href="/Members/BecomeAMember">
           <button className="text-white bg-[#FD652F] rounded lg:text-[14px] text-[11px] w-full text-center px-1.5 py-2 hover:bg-white hover:text-[#001F5B]">
             Become a Member
           </button>
