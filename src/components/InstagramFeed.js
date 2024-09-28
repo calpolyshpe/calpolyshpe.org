@@ -62,10 +62,8 @@ export default function InstagramFeed() {
               <Image
                 src={post.src}
                 alt={post.alt}
-                layout="responsive"
                 width={300}
                 height={300}
-                objectFit="cover"
                 className="cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105"
                 priority
               />

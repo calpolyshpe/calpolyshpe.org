@@ -1,11 +1,14 @@
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Header() {
+  const [showMobileMenu, setMobileMenu] = useState("false");
+
   return (
     <div className="bg-[#001F5B] py-5 px-3 border-b border-white border-opacity-50">
       <div className="flex flex-col md:flex-row md:justify-between md:items-center">
         <div className="w-full md:w-auto mb-4 md:mb-0 flex justify-center md:justify-start">
-          <Link href=".">
+          <Link href="/">
             <img
               src="/SHPE_Calpoly_logo.png"
               className="w-1/2 md:w-2/3 lg:w-1/3 h-auto md:m-0 m-auto"
@@ -15,7 +18,13 @@ export default function Header() {
         </div>
         <div className="hidden md:flex flex-col md:flex-row md:items-center md:space-x-6">
           <div className="relative group">
-            <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] focus:outline-none w-16">
+            <button
+              className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] focus:outline-none w-16"
+              onClick={() => {
+                setMobileMenu("true");
+                console.log(showMobileMenu);
+              }}
+            >
               Members
             </button>
             <div className="hidden absolute mt-1 bg-white shadow-lg rounded-md text-black p-2 w-40 z-10 group-hover:block">
