@@ -7,10 +7,10 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
-        <Header/>
+        <Header />
         <Main />
         <NextScript />
-        {/* <Footer/> */}
+        <Footer/>
       </body>
     </Html>
   );
