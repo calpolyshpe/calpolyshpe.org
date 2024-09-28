@@ -13,13 +13,13 @@ export default function BecomeAMember() {
       />
       <div className="bg-[#001F5B] flex flex-col items-center">
         <div className="md:w-3/5 w-3/4 h-auto flex md:flex-row flex-col justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-          <button className="text-white bg-[#FD652F] rounded-xl md:text-xl text-lg text-xs md:px-20 px-12 md:py-4 py-2 whitespace-nowrap w-full md:w-auto">
+          <button className="text-white bg-[#FD652F] rounded-xl md:text-xl text-lg md:px-20 px-12 md:py-4 py-2 whitespace-nowrap w-full md:w-auto">
             <a href="https://apps.asi.calpoly.edu/paypal274" target="_blank">
               Cal Poly SHPE Dues
             </a>
           </button>
-          <button className="text-white bg-[#FD652F] rounded-xl md:text-xl text-lg text-xs md:px-20 px-12 md:py-4 py-2 whitespace-nowrap w-full md:w-auto">
-            <a href="https://www.shpeconnect.org/eweb/DynamicPage.aspx?WebCode=LoginRequired&expires=yes&Site=shpe">
+          <button className="text-white bg-[#FD652F] rounded-xl md:text-xl text-lg md:px-20 px-12 md:py-4 py-2 whitespace-nowrap w-full md:w-auto">
+            <a href="https://www.shpeconnect.org/eweb/DynamicPage.aspx?WebCode=LoginRequired&expires=yes&Site=shpe" target="_blank">
               SHPE National Dues
             </a>
           </button>
