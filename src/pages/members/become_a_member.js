@@ -8,30 +8,31 @@ export default function BecomeAMember() {
       <WhatIs
         question={"Why become a member?"}
         response={
-          "Stop by our meetings to find out more about how you can get involved with SHPE and grow with our familia! Cal Poly SHPE dues and SHPE National dues must be paid to become an official member!"
+          "Joining SHPE has multiple benefits for your professional, academic, and social life! For our general meetings we often bring a speaker from a big or small company to talk about what they do in their day to day work which allows for our members to ask questions and network. Paying the national dues as well as the Cal Poly SHPE dues is required to attend the SHPE national conference where they bring multiple companies for you to network with which can be helpful for acquiring your future career! When it comes to academics, our officers are passionate about what they do and study so they are always a good resources to ask about classes! SHPE also has many social events where you’re able to meet other students and build a community!"
         }
       />
       <div className="bg-[#001F5B] flex flex-col items-center">
-        <div className="lg:w-3/5 w-3/4 h-auto flex justify-center items-center">
-          <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:mr-14 mr-4">
-            <a
-              href="https://apps.asi.calpoly.edu/paypal274"
-              target="_blank"
-            >
+        <div className="md:w-3/5 w-3/4 h-auto flex md:flex-row flex-col justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+          <button className="text-white bg-[#FD652F] rounded-xl md:text-xl text-lg text-xs md:px-20 px-12 md:py-4 py-2 whitespace-nowrap w-full md:w-auto">
+            <a href="https://apps.asi.calpoly.edu/paypal274" target="_blank">
               Cal Poly SHPE Dues
             </a>
           </button>
-          <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:ml-14 ml-4">
+          <button className="text-white bg-[#FD652F] rounded-xl md:text-xl text-lg text-xs md:px-20 px-12 md:py-4 py-2 whitespace-nowrap w-full md:w-auto">
             <a href="https://www.shpeconnect.org/eweb/DynamicPage.aspx?WebCode=LoginRequired&expires=yes&Site=shpe">
               SHPE National Dues
             </a>
           </button>
         </div>
-        <h1 className="text-white flex justify-center lg:w-3/5 w-3/4 h-auto lg:text-xl md:text-sm text-[9px] font-sans md:mt-6 mt-3 pb-10">
-          Check out our calendar to see when our next meeting will occur and how
-          you can get involved!
-        </h1>
+        {/* <h1 className="text-white md:text-xl sm:text-md text-sm font-sans md:pt-6 pt-4 leading-relaxed my-10">
+          Check out our calendar to see when our next meeting will occur and how you can get involved!
+        </h1> */}
       </div>
+      <WhatIs
+        response={
+          "Check out our calendar to see when our next meeting will occur and how you can get involved!"
+        }
+      />
     </main>
   );
 }
