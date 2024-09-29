@@ -8,7 +8,11 @@ export default function LightBlueWPic({ imgURL, title, content }) {
               {title}
             </h1>
             <h2 className="text-white lg:text-xl md:text-lg sm:text-md text-sm font-sans md:py-6 py-3 md:px-2 whitespace-pre-line">
-              {content}
+              {content.split(/(\d+\..*?(?=\d+\.|$))/).map((line, index) => (
+                <span key={index}>
+                  {line.trim() && <p className="mb-4">{line.trim()}</p>}
+                </span>
+              ))}
             </h2>
           </div>
           <img
@@ -29,7 +33,13 @@ export default function LightBlueWPic({ imgURL, title, content }) {
             <h1 className="text-white text-base font-medium font-sans mb-4">
               {title}
             </h1>
-            <h2 className="text-white text-sm font-sans">{content}</h2>
+            <h2 className="text-white text-sm font-sans">
+              {content.split(/(\d+\..*?(?=\d+\.|$))/).map((line, index) => (
+                <span key={index}>
+                  {line.trim() && <p className="mb-4">{line.trim()}</p>}
+                </span>
+              ))}
+            </h2>
           </div>
         </div>
       </div>

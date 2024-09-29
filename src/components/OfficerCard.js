@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function OfficerCard() {
   // { 'name': '', 'role': '', 'email': '', 'major':'','picture': '/Officer_Pics/.jpg', 'blurb': '' }
 
@@ -26,7 +28,8 @@ export default function OfficerCard() {
       email: "calpolyshpe.webmaster@gmail.com",
       major: "Computer Science",
       picture: "/Officer_Pics/Julissa.jpg",
-      blurb: "\nHey everyone, I’m Julissa your SHPE webmaster for the year! My major is computer science and in my free time I like exploring new places or being outdoorsy. I’m also a transfer student, who works at the Transfer center so if you have any transfer related questions feel free to ask me! Fun fact, If you’re currently reading this that means you're on the website that I have designed and built for the club! My goal for this school year as webmaster is to make sure that the website gets updated, looks presentable, and represents what we stand for as a club. I’m looking forward to seeing you all at our meetings and events!",
+      blurb:
+        "\nHey everyone, I’m Julissa your SHPE webmaster for the year! My major is computer science and in my free time I like exploring new places or being outdoorsy. I’m also a transfer student, who works at the Transfer center so if you have any transfer related questions feel free to ask me! \n\nFun fact, If you’re currently reading this that means you're on the website that I have designed and built for the club! My goal for this school year as webmaster is to make sure that the website gets updated, looks presentable, and represents what we stand for as a club. I’m looking forward to seeing you all at our meetings and events!",
     },
     {
       name: "Yitzel Vazquez",
@@ -86,7 +89,7 @@ export default function OfficerCard() {
       role: "DCAB officer",
       email: "calpolyshpe.dcab@gmail.com",
       major: "\nCivil Engineering",
-      picture: "/Officer_Pics/Yanneli.jpg",
+      picture: "/Officer_Pics/Yanneli.JPG",
       blurb:
         "I am an incoming 3rd year civil engineering student from Lompoc, CA & Jalisco, Mex. I enjoy spending quality time with my friends and my family. I lived in Jalisco for 7 years and my direct family lives there so I go back as often as I can.\n\nSince Spring Quarter of 2023 I've been a Student Assistant for the Latinx Center (La CASA) and our main focus is to provide resources to students and create a community on campus. I decided to join SHPE and take the DCAB role mainly to continue on doing what I do in my current job which is support students and make them feel welcome. I made a lot of friends through SHPE and the club also provides a lot of opportunities for your success so I would suggest to take advantage of them, and if you have any questions feel free to come up to me or any of the other officers and we'll do our best to help. I can't wait to see what amazing things SHPE has stored for this 2024-2025 academic year!",
     },
@@ -144,11 +147,15 @@ export default function OfficerCard() {
           key={index}
           className="hidden lg:flex justify-center items-center w-3/4 md:py-12 py-6 border-b border-white border-opacity-15"
         >
-          <img
+          <Image
             src={officer.picture}
             alt={officer.name}
-            className="w-72 h-96 object-cover"
+            width={288}
+            height={384}
+            className="w-72 h-96 max-w-full max-h-full object-cover aspect-[3/4]"
+            priority
           />
+
           <div className="w-[800px] h-auto flex flex-col justify-center p-6 ml-12">
             <h1 className="text-white font-bold text-2xl font-sans mb-4">
               {officer.role}
@@ -168,10 +175,12 @@ export default function OfficerCard() {
           key={index}
           className="lg:hidden flex flex-col items-center w-11/12 md:py-8 py-4 border-b border-white border-opacity-15"
         >
-          <img
+          <Image
             src={officer.picture}
             alt={officer.name}
-            className="w-full h-auto max-w-xs mb-6 object-cover"
+            width={384}
+            height={512}
+            priority
           />
 
           <div className="w-full flex flex-col justify-center p-4">

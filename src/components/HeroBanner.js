@@ -1,13 +1,30 @@
+import { useState } from "react";
+import Image from "next/image";
+
 export default function HeroBanner({ imgUrl, title, subtitle }) {
-  // Creates the banner image on the page where it also contains the title text of page over
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
 
   return (
     <div className="relative bg-[#001F5B] w-full mx-auto border-white border-b border-opacity-50">
-      <img
-        src={imgUrl}
-        className="w-full h-[40vh] lg:h-[50vh] object-cover opacity-45"
-        alt="Mainpage GroupPhoto"
-      />
+      <div
+        className={`w-full h-[40vh] lg:h-[50vh] relative ${
+          isLoading ? "" : ""
+        }`}
+      >
+        <Image
+          src={imgUrl}
+          alt="Mainpage GroupPhoto"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-45"
+          priority
+          onLoad={handleImageLoad}
+        />
+      </div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 lg:p-8 md:p-6 sm:p-4 overflow-hidden">
         <div className="flex flex-col justify-center items-center h-full w-full max-w-lg">
           <h1 className="text-white font-sans lg:text-5xl md:text-4xl sm:text-3xl text-xl font-extrabold leading-snug mb-2">
