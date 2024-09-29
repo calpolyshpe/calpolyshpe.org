@@ -108,6 +108,33 @@ export default function OfficerCard() {
       blurb:
         "\nHi! I’m Eddy Resendiz, and I’m from San Diego, CA. Currently, some of my hobbies include rock climbing, thrifting, and hiking to view points. One thing I love about SHPE is the community aspect of it, it truly is a home away from home. Connecting with others that have the same or similar background as you is refreshing while studying at a PWI. I hope to serve my role as public relations officer to the fullest extent, so feel free to reach out for any questions!",
     },
+    {
+      name: "Gabriel Antonio Zepeda",
+      role: "Alumni Relations",
+      email: "calpolyshpe.alumni@gmail.com",
+      major: "Civil Engineering",
+      picture: "/Officer_Pics/Gabe.jpg",
+      blurb:
+      "\nWhat's up everyone, my name is Gabe and I am the Alumni Relations officer for the '24-'25 academic school year. I am a fourth year Civil Engineering major, coming out of Stockton, California. I have professional experience in construction management, but I am always looking for ways to explore other sectors of civil engineering to get a feel for what interests me the most. Outside of academics & SHPE, I enjoy cooking, hiking, & concerts. \n\nI joined the SHPE board because I saw an opportunity to be a leader to new students and help our community get connected to industry professionals, and I am excited to see what the corporate team and I can do for the Cal Poly SHPE community!  "
+    },
+    {
+      name: "Eliza Moto",
+      role: "Secretary",
+      email: "calpolyshpe.sec@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/Officer_Pics/Eliza.jpg",
+      blurb:
+      "\nHey y'all! I'm Eliza Moto and this year I am your Secretary. I'm a third year mechanical engineering major from Palm Springs, CA who enjoys hanging out with friends, catching up on sleep, and listening to music. One of my involvements as a student is being part of Thermal Comfort Research with Dr. Mott on campus! My team and I may come into your class to survey you and your peers :3\n\nTo me, SHPE is a heartwarming community that makes the experience at Cal Poly just that much more exciting and encouraging. I have made many friends that I can now call Familia, and together we support each other from academics to social life to professionalism. I/'m happy to call us a home away from home! "
+    },
+    {
+      name: "Juan Rodriguez",
+      role: "Chapter Events",
+      email: "calpolyshpe.events@gmail.com",
+      major: "Civil Engineering",
+      picture: "/Officer_Pics/Juan.jpeg",
+      blurb:
+      "\nQue rollo con el pollo raza! Im Juan Rodriguez and your chapter events officer for this year. On my free time, you’ll probably find me running, drinking an iced green tea with honey, or listening to Drake while cooking. I’m also a big yapper so please feel free to ask me or conversate about anything.\n\nSHPE has not only been a club for me during my first year but a true family that shares the same value I grew up with. As your chapter events officer, I promise to make this year memorable for our family. Also, believe me, I’m working day n night getting those tactics down for the sports we will be participating in. "
+    },
   ];
 
   return (

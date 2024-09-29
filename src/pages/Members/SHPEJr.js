@@ -13,7 +13,7 @@ export default function SHPEJr() {
         }
       />
       <LightBlueWPic
-        imgURL={"/SHPEJrImgs/Outreach.png"}
+        imgURL={"/SHPEJrImgs/SHPE_Laguna_2.png"}
         title={"What we do"}
         content={
           "We host hands-on workshops for students in elementary, middle, and high school to introduce them to engineering. The hands-on activities include popsicle stick catapult & bridge competitions, balloon rocket team building & communication activity, and paper and straw sailboat design."

@@ -19,17 +19,17 @@ export default function Header() {
               Members
             </button>
             <div className="hidden absolute mt-1 bg-white shadow-lg rounded-md text-black p-2 w-40 z-10 group-hover:block">
-              <Link href="/members/calendar">
+              <Link href="/Members/calendar">
                 <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
                   Calendar
                 </button>
               </Link>
-              <Link href="/members/SHPEtina">
+              <Link href="/Members/SHPEtina">
                 <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
                   SHPEtina
                 </button>
               </Link>
-              <Link href="/members/SHPEJr">
+              <Link href="/Members/SHPEJr">
                 <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
                   SHPE Jr.
                 </button>
@@ -51,7 +51,7 @@ export default function Header() {
               About Us
             </button>
           </Link>
-          <Link href="/members/become_a_member">
+          <Link href="/Members/become_a_member">
             <button className="text-white bg-[#FD652F] rounded lg:text-[14px] text-[11px] px-3 py-1 hover:bg-white hover:text-[#001F5B] mt-2 md:mt-0 w-40">
               Become a Member
             </button>
