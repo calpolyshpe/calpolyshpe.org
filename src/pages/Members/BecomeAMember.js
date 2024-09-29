@@ -4,7 +4,7 @@ import WhatIs from "@/components/WhatIs";
 export default function BecomeAMember() {
   return (
     <main>
-      <HeroBanner title={"Become a Member"} imgUrl={"/Become.jpg"} />
+      <HeroBanner title={"Become a Member"} imgUrl={"/Talking.jpg"} />
       <WhatIs
         question={"Why become a member?"}
         response={

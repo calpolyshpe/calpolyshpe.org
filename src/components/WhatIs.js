@@ -5,7 +5,7 @@ export default function WhatIs({ question, response }) {
         <h1 className="text-white lg:text-3xl md:text-xl sm:text-lg text-base font-medium font-serif italic leading-relaxed md:leading-relaxed">
           {question}
         </h1>
-        <h2 className="text-white lg:text-xl md:text-lg sm:text-md text-sm font-sans md:pt-6 pt-4 leading-relaxed">
+        <h2 className="text-white lg:text-xl md:text-lg text-sm font-sans md:pt-6 pt-4 leading-relaxed">
           {response}
         </h2>
       </div>
