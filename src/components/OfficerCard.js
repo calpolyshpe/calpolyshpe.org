@@ -51,7 +51,7 @@ export default function OfficerCard() {
     },
     {
       name: "Vanessa Ortiz",
-      role: "VP of Community",
+      role: "VP of Community Affairs",
       email: "calpolyshpe.outreach@gmail.com",
       major: "M.S. Civil and Environmental Engineering",
       picture: "/Officer_Pics/Vanessa.jpg",

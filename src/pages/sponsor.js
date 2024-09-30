@@ -35,7 +35,7 @@ export default function Sponsor() {
           src="/Sponsor_Logos.png"
           className="md:w-[600px] w-[300px] h-auto"
         />
-        <h3 className="text-white lg:w-3/5 w-3/4 h-auto lg:text-3xl md:text-xl text-sm font-sans md:py-14 py-6 border-b border-white border-opacity-15 text-center">
+        <h3 className="text-white lg:w-3/5 w-3/4 h-auto lg:text-xl md:text-lg text-sm font-sans md:py-14 py-6 border-b border-white border-opacity-15 text-center">
           Thank you to all of our sponsors for helping the future Hispanics of
           STEM!
         </h3>
@@ -47,7 +47,7 @@ export default function Sponsor() {
         }
       />
       <div className="bg-[#72A9BE] w-full h-auto flex items-center justify-center">
-        <h1 className="text-white lg:w-3/5 w-3/4 h-auto lg:text-xl md:text-sm text-[9px] font-sans md:py-14 py-6 border-b border-white border-opacity-15">
+        <h1 className="text-white lg:w-3/5 w-3/4 h-auto lg:text-xl text-sm  font-sans md:py-14 py-6 border-b border-white border-opacity-15">
           1. Click the Donations button below <br />
           2. List your donation amount under "Donation Amount" <br />
           3. In the "Designations" section, choose "Select College(s) and
