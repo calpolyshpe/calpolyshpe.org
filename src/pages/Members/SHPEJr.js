@@ -1,14 +1,8 @@
 import HeroBanner from "@/components/HeroBanner";
 import WhatIs from "@/components/WhatIs";
 import LightBlueWPic from "@/components/LightBlueWPic";
-import Carousel from "@/components/carousel";
 
-export default function SHPEJr() {
-  let slides = [
-      "/SHPEJrImgs/SHPEJrBoys.JPG",
-      "/SHPEJrImgs/SHPEJrGirls.JPG"
-  ]
-    
+export default function SHPEJr() { 
   return (
     <main>
       <HeroBanner title={"SHPE Jr"} imgUrl={"/SHPEJrImgs/SHPEJr_Cover.jpg"} />
@@ -58,7 +52,6 @@ export default function SHPEJr() {
           />
         </div>
       </div>
-      <Carousel slides={slides}/>
       <LightBlueWPic
         title={"Noche De Ciencas"}
         content={
