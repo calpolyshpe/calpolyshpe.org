@@ -50,29 +50,32 @@ export default function InstagramFeed() {
   ];
 
   return (
-    <div className="bg-[#001F5B] mx-auto p-4">
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-        {instagramPosts.map((post, index) => (
-          <div key={index} className="w-full">
-            <a
-              href={post.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={post.src}
-                alt={post.alt}
-                layout="responsive"
-                width={300}
-                height={300}
-                objectFit="cover"
-                className="cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105"
-                priority
-              />
-            </a>
-          </div>
-        ))}
+    <div className="bg-[#001F5B] mx-auto p-4 flex justify-center items-center">
+      <div className="lg:w-3/5 w-3/4 h-auto">
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+          {instagramPosts.map((post, index) => (
+            <div key={index} className="w-full">
+              <a
+                href={post.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={post.src}
+                  alt={post.alt}
+                  layout="responsive"
+                  width={300}
+                  height={300}
+                  objectFit="cover"
+                  className="cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105"
+                  priority
+                />
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+      </div>
+      
   );
 }

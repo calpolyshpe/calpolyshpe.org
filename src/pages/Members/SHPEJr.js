@@ -2,7 +2,7 @@ import HeroBanner from "@/components/HeroBanner";
 import WhatIs from "@/components/WhatIs";
 import LightBlueWPic from "@/components/LightBlueWPic";
 
-export default function SHPEJr() {
+export default function SHPEJr() { 
   return (
     <main>
       <HeroBanner title={"SHPE Jr"} imgUrl={"/SHPEJrImgs/SHPEJr_Cover.jpg"} />
@@ -25,6 +25,7 @@ export default function SHPEJr() {
           "Our first SHPE Jr chapter at Pioneer Valley High School was established in 2013, followed by Santa Maria High School in 2017. Our members mentor the high school students, share personal insights on preparing for college, and encourage Jr members to pursue careers in the STEM fields. Currently, we are looking to expand to other schools to outreach to as many students as we can and help all schools near San Luis Obispo learn about STEM majors."
         }
       />
+      
       <div className="bg-[#001F5B] flex flex-row justify-center items-center">
         <div className="lg:w-3/5 w-3/4 h-auto hidden md:flex flex-row justify-center pb-20">
           <img

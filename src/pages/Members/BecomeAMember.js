@@ -1,4 +1,5 @@
 import HeroBanner from "@/components/HeroBanner";
+import RegularText from "@/components/RegularText";
 import WhatIs from "@/components/WhatIs";
 
 export default function BecomeAMember() {
@@ -25,11 +26,12 @@ export default function BecomeAMember() {
           </button>
         </div>
       </div>
-      <WhatIs
+      <RegularText text={"Check out our calendar to see when our next meeting will occur and how you can get involved!"}/>
+      {/* <WhatIs
         response={
           "Check out our calendar to see when our next meeting will occur and how you can get involved!"
         }
-      />
+      /> */}
     </main>
   );
 }
