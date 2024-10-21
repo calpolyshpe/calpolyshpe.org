@@ -15,11 +15,11 @@ export default function Sponsor() {
       />
       <div className="bg-[#001F5B] flex flex-col justify-center items-center">
         <div className="lg:w-3/5 w-3/4 h-auto flex justify-center items-center">
-          <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:mr-14 mr-4">
-            <a href="https://apps.asi.calpoly.edu/paypal274">
-              Sponsor Form
-            </a>
-          </button>
+          <a href="https://apps.asi.calpoly.edu/paypal274">
+            <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:mr-14 mr-4">
+              Sponsor Form          
+            </button>
+          </a>
           <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:ml-14 ml-4">
             Sponsor Package
           </button>
@@ -60,11 +60,11 @@ export default function Sponsor() {
       </div>
       <div className="bg-[#001F5B] flex justify-center">
         <div className="lg:w-3/5 w-3/4 h-auto flex justify-center md:py-14 py-6">
-          <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-28 px-9 md:py-2 py-1 md:mr-14 mr-4">
           <a href="https://securelb.imodules.com/s/699/bp19/interior.aspx?sid=699&gid=1&pgid=961&cid=2272&bledit=1&dids=322.276.486.317.329.352.487.306.363.211.459.325.389.490.330.491.705.338.259.335.215.324.410.336.302.&sort=1">
+            <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-28 px-9 md:py-2 py-1 md:mr-14 mr-4">
               Donate
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </main>
