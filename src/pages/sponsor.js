@@ -17,7 +17,7 @@ export default function Sponsor() {
         <div className="lg:w-3/5 w-3/4 h-auto flex justify-center items-center">
           <a href="https://apps.asi.calpoly.edu/paypal274">
             <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:mr-14 mr-4">
-              Sponsor Form          
+              Sponsor Form
             </button>
           </a>
           <button className="text-white bg-[#FD652F] rounded-xl lg:text-xl md:text-sm text-[9px] md:px-14 px-4 md:py-2 py-1 md:ml-14 ml-4">
