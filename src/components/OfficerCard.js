@@ -80,7 +80,7 @@ export default function OfficerCard() {
       role: "Tour Ambassador",
       email: "Calpolyshpe.ambassadors@gmail.com",
       major: "Economics",
-      picture: "/officer_pics/stephanie.jpeg",
+      picture: "/officer_pics/stephanie.webp",
       blurb:
         "\nI am someone who takes a deep interest in adventuring, music, baking, and motorsports. I also enjoy SHPE as I was a student looking for a community in things I was interested in, even though I do not focus my studies in the area and felt very welcomed and as though I could comfortably learn new intersting things! I look forward to being able to make others see Cal Poly as a welcoming university with many places for others to be themselves. I hope to one day work on the financial teams of a meaningful company and be able to make my mark with my career.",
     },
