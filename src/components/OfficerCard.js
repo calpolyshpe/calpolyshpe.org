@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function OfficerCard() {
   // { 'name': '', 'role': '', 'email': '', 'major':'','picture': '/officer_pics/.webp', 'blurb': '' }
-
+ // C:\Users\julis\OneDrive\Desktop\calpolyshpe.org\public\officer_pics\Andrew.webp
   const SHPEboard = [
     {
       name: "Kaitlyn Corral",
@@ -105,7 +105,7 @@ export default function OfficerCard() {
     {
       name: "Eddy Resendiz ",
       role: "Public Relations",
-      email: "",
+      email: "calpolyshpe.pr@gmail.com",
       major: "Computer Science ",
       picture: "/officer_pics/eddy.webp",
       blurb:
@@ -138,6 +138,43 @@ export default function OfficerCard() {
       blurb:
       "\nQue rollo con el pollo raza! Im Juan Rodriguez and your chapter events officer for this year. On my free time, you’ll probably find me running, drinking an iced green tea with honey, or listening to Drake while cooking. I’m also a big yapper so please feel free to ask me or conversate about anything.\n\nSHPE has not only been a club for me during my first year but a true family that shares the same value I grew up with. As your chapter events officer, I promise to make this year memorable for our family. Also, believe me, I’m working day n night getting those tactics down for the sports we will be participating in. "
     },
+    {
+      name: "Andrew Apatiga",
+      role: "Transfer Representative",
+      email: "calpolyshpe.trep@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/Andrew.webp",
+      blurb:
+      "\nHey everyone, my name is Andrew Apatiga and I will be your 24'-25' SHPE Transfer Rep. I am a third year transfer student majoring in mechanical engineering. In my free time, I enjoy  bouldering, listening to music, thrifting, and hanging with friends!\n\nApart from the professional aspect of SHPE, the club has really helped me in building strong friendships and connections. As the Transfer Rep, I hope to provide the same opportunities to transfer students that SHPE has given me. I’m excited to see what this year holds and look forward to making it a great one together!"
+    },
+    {
+      name: "Evan Herrera",
+      role: "LeaderSHPE development",
+      email: "leadershpedevelopmentchair@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/Evan.webp",
+      blurb:
+      "\nMy name is Evan Herrera and I’m a 4th year Mechanical Engineering major at Cal Poly. In my free time I love to draw, play guitar, and workout with friends. One thing I love most about SHPE is its inclusivity and friendly environment. Not all clubs on campus display such a welcoming environment for students even though it’s one of the most important values a club can have. The goals I hope to fulfill in my role is to make the connections between students and employers/companies as streamlined as possible. I want to be an outlet for those who are unfamiliar with our club and the events we hold. A future career goal of mine is to secure a role in mechanical contracting or national defense contacting with my mechanical engineering training."
+    },
+    {
+      name: "Denis Gonzalez-Reyes",
+      role: "SHPEtina Representative",
+      email: "calpolyshpe.tinas@gmail.com",
+      major: "Aerospace Engineering",
+      picture: "/officer_pics/Denis.webp",
+      blurb:
+      "\nHeyyy SHPEtinas and SHPEtina supporters! I am so honored to be your rep and I will hold my promise, that together we will have a ton of growth, empowerment and fun—because Latinas always know how to have more fun! I want to create an inclusive and safe environment for everyone to feel valued, heard and unapologetically themselves. \n\nWe call ourselves Latinas, SHPEtinas, Las Cal Poly Comadres, but ultimately we are strong, and stronger together! Feel free to reach out to me with any questions, concerns or chismes hehehe ;)"
+    },
+    {
+      name: "Yazmin Mejia Aguilar",
+      role: "Freshman Representative",
+      email: "calpolyshpe.freshmanrep@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/Yazmin.webp",
+      blurb:
+      "\nMy hometown is Bakersfield, California. Some of my hobbies include playing tennis, going on walks, and watching Disney movies. My ideal future career would be in the automotive industry. Being in SHPE will help me accomplish many of my career goals. The networking provided through company representatives at meetings is what I like the most about SHPE. I hope to get more students into SHPE in order for them to take advantage of all the opportunities in this great organization."
+    }
+    
   ];
 
   return (
