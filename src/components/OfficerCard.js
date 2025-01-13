@@ -1,8 +1,7 @@
 import Image from "next/image";
 
 export default function OfficerCard() {
-  // { 'name': '', 'role': '', 'email': '', 'major':'','picture': '/officer_pics/.webp', 'blurb': '' }
- // C:\Users\julis\OneDrive\Desktop\calpolyshpe.org\public\officer_pics\Andrew.webp
+
   const SHPEboard = [
     {
       name: "Kaitlyn Corral",
@@ -74,15 +73,6 @@ export default function OfficerCard() {
       picture: "/officer_pics/roberto.webp",
       blurb:
         "\nI learned about SHPE during my junior year of high school through a program named SHPE Jr and have now been able to become SHPE Jr Chair, now I'm able to give back and motivate high schoolers to be involved in STEM the way that SHPE was able to do with me.",
-    },
-    {
-      name: "Stephanie Lopez Guillen",
-      role: "Tour Ambassador",
-      email: "Calpolyshpe.ambassadors@gmail.com",
-      major: "Economics",
-      picture: "/officer_pics/stephanie.webp",
-      blurb:
-        "\nI am someone who takes a deep interest in adventuring, music, baking, and motorsports. I also enjoy SHPE as I was a student looking for a community in things I was interested in, even though I do not focus my studies in the area and felt very welcomed and as though I could comfortably learn new intersting things! I look forward to being able to make others see Cal Poly as a welcoming university with many places for others to be themselves. I hope to one day work on the financial teams of a meaningful company and be able to make my mark with my career.",
     },
     {
       name: "Yanneli Santos",
@@ -201,39 +191,6 @@ export default function OfficerCard() {
             <h3 className="text-white text-lg mb-2">{officer.major}</h3>
             <h4 className="text-white text-lg mb-2">{officer.email}</h4>
             <h5 className="text-white text-lg whitespace-pre-wrap">
-              {officer.blurb}
-            </h5>
-          </div>
-        </div>
-      ))}
-
-      {SHPEboard.map((officer, index) => (
-        <div
-          key={index}
-          className="lg:hidden flex flex-col items-center w-11/12 md:py-8 py-4 border-b border-white border-opacity-15"
-        >
-          <Image
-            src={officer.picture}
-            alt={officer.name}
-            width={384}
-            height={512}
-            priority
-          />
-
-          <div className="w-full flex flex-col justify-center p-4">
-            <h1 className="text-white font-bold text-lg md:text-xl mb-4 text-center">
-              {officer.role}
-            </h1>
-            <h2 className="text-white text-sm md:text-base mb-2 text-center">
-              {officer.name}
-            </h2>
-            <h3 className="text-white text-sm md:text-base mb-2 text-center">
-              {officer.major}
-            </h3>
-            <h4 className="text-white text-sm md:text-base mb-2 text-center">
-              {officer.email}
-            </h4>
-            <h5 className="text-white text-sm md:text-base whitespace-pre-wrap text-center">
               {officer.blurb}
             </h5>
           </div>

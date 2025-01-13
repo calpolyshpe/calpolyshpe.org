@@ -36,6 +36,11 @@ export default function Header() {
                   SHPE Jr.
                 </button>
               </Link>
+              <Link href="/Members/OfTheQuarter">
+              <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
+                  Outstanding Members
+                </button>
+              </Link>
             </div>
           </div>
           <Link href="/officers">
