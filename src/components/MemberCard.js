@@ -13,13 +13,13 @@ export default function MemberCard() {
             "\nHello! My name is Saul Rodriguez and I am a third year computer engineering student. As a first generation Hispanic student, one reason why I love SHPE is the community around me because I feel motivated to be with people of similar background and aspirations. SHPE has provided me a network of friends and mentors who uplift and support my academic and professional journey.",
         },
         {
-            name: "",
-            year: "",
-            major: "",
+            name: "Marc Colores",
+            year: "1st year",
+            major: "Civil Engineering",
             quarter: "Winter 2025",
-            picture: "/member_pics/person_icon.webp",
+            picture: "/member_pics/Marc.webp",
             blurb:
-              "",
+              "\nI love the community that SHPE provides for so many students and the ways that I can help to foster and participate with it through various activities. I loved the additional activities at my high school that SHPE helped facilitate and the community in engineering that it would eventually house for me.",
           },
           {
             name: "",

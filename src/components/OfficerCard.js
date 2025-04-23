@@ -138,15 +138,6 @@ export default function OfficerCard() {
       "\nHey everyone, my name is Andrew Apatiga and I will be your 24'-25' SHPE Transfer Rep. I am a third year transfer student majoring in mechanical engineering. In my free time, I enjoy  bouldering, listening to music, thrifting, and hanging with friends!\n\nApart from the professional aspect of SHPE, the club has really helped me in building strong friendships and connections. As the Transfer Rep, I hope to provide the same opportunities to transfer students that SHPE has given me. I’m excited to see what this year holds and look forward to making it a great one together!"
     },
     {
-      name: "Evan Herrera",
-      role: "LeaderSHPE development",
-      email: "leadershpedevelopmentchair@gmail.com",
-      major: "Mechanical Engineering",
-      picture: "/officer_pics/Evan.webp",
-      blurb:
-      "\nMy name is Evan Herrera and I’m a 4th year Mechanical Engineering major at Cal Poly. In my free time I love to draw, play guitar, and workout with friends. One thing I love most about SHPE is its inclusivity and friendly environment. Not all clubs on campus display such a welcoming environment for students even though it’s one of the most important values a club can have. The goals I hope to fulfill in my role is to make the connections between students and employers/companies as streamlined as possible. I want to be an outlet for those who are unfamiliar with our club and the events we hold. A future career goal of mine is to secure a role in mechanical contracting or national defense contacting with my mechanical engineering training."
-    },
-    {
       name: "Denis Gonzalez-Reyes",
       role: "SHPEtina Representative",
       email: "calpolyshpe.tinas@gmail.com",
