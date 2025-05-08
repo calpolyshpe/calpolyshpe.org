@@ -1,8 +1,4 @@
-import Image from "next/image";
-
-export default function OfficerCard() {
-
-  const SHPEboard23 = [
+const SHPEboard23_24 = [
     {
       name: "Isabella Jimenez-Melendrez",
       role: "President",
@@ -12,8 +8,116 @@ export default function OfficerCard() {
       blurb:
         "\nHola Familia!  My name is Isabella Jimenez-Melendrez and I am an architectural engineering undergraduate student. My passion for my career is so I can help build better structures and help to make sustainable and affordable housing for our community. I was born in San Diego, California, but I grew up in Tijuana, Baja California, Mexico. My hobbies include cooking, doing any types of crafts, swimming, and spending time with my family, friends, and my two dogs, Zeus and Guero. SHPE has always brought the best out of me and it’s an honor to be part of the team and bring the best out of the club to support our members. SHPE is more than just a club, it’s a support system, una familia, that helps us grow professionally and personally. As this year’s president, I oversee all the officers and report our activities, successes, and statistics to SHPE National. We are here to provide the best for everyone and have a great academic year full of opportunities, porque si se puede! If you have any questions about anything at all, feel free to email me or talk to me at a meeting, an event, or at school in general!",
     },
+    {
+      name: "Gurtaj Khera",
+      role: "Treasurer",
+      email: "calpolyshpe.treasurer@gmail.com",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2023-24/Treasurer.webp",
+      blurb:
+        "\nHi everyone! My name is Gurtaj Khera and I’m the Treasurer for SHPE! My responsibilities include managing the club funds to make our events happen, there's food for our meetings, and anything finance related for the club. If you have any questions about SHPE or anything in general, please do not feel hesitate to reach out to me. I’m excited and looking forward to meeting everyone this year!",
+    },
+    {
+      name: "Angel Perales",
+      role: "VP of Corporate Affairs",
+      email: "calpolyshpe.vp@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2023-24/VPcorporateA.webp",
+      blurb:
+        "\nHola everyone! My name is Angel Perales and I am excited to be your VP of Corporate Affairs for this school year. I am originally from Orange County, CA and I am currently studying Mechanical Engineering. I have been on the SHPE board for the past couple of years and I am excited to use what I have learned to benefit all the members. For this year, I am working to bring companies and plan professional events, such that our members can grow to be great leaders in STEM. Can't wait to see ya'll at the meetings! ",
+    },
+    {
+      name: "Diego Albarran",
+      role: "VP of Membership",
+      email: "calpolyshpe.membership@gmail.com",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2023-24/VPM.webp",
+      blurb:
+        "\nHola Familia! As the VP of Membership Affairs, I will oversee all the events that are member related. My goal for this year as the VP of Membership is to have our members be more engaged within SHPE through various social activities and general activities. As VP of Membership, my tasks include helping with social events, organizing the familia program and listening to the members needs. I hope to see you all at our events!!! ",
+    },
+    {
+      name: "Lesley Milena Estrada",
+      role: "VP of Community Affairs",
+      email: "calpolyshpe.outreach@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2023-24/VPCommunityA.webp",
+      blurb: `\nAs VP of Outreach Affairs, I am in charge of overseeing SHPE's outreach efforts including SHPE Jr. SHPE Jr. is a program that aims to foster high school and middle school student's interest in STEM and provide a support system for them through scholarships and informative events. One of the biggest events that we organize for our SHPE Jr. Chapters is Noche de Ciencias, both an informative and interactive event for students and their parents. Typical outreach events that the team organizes are classroom visits, tutoring, Q&As and student panels, campus tours and fundraisers to support our efforts. Check out our outreach tab for more! 
+My goal is to show others just how capable and resilient they can be, regardless of challenges or factors that may set them aside from the crowd. Not too sure if I am supposed to say something about myself, but here it goes. I enjoy reading, going to the beach, and baking, especially if it's a new recipe. I won't ever reject any opportunity at going to Dutch Bros. `,
+    },
+    {
+      name: "Joseph Perez",
+      role: "Secretary",
+      email: "calpolyshpe.sec@gmail.com",
+      major: "Computer Science",
+      picture: "/officer_pics/2023-24/Secretary.webp",
+      blurb:
+      "\nHey SHPE Familia! I am a fourth-year computer science major and come from the most intriguing and fun town in the country Salinas, California. \nI am thrilled to take on the position of secretary for the 2022-2023 academic year. As secretary, I help facilitate our officer meetings, run our officer/chair elections, and spearhead our banquet planning committee. I look forward to help make this year rewarding and fun for our SHPE Familia! Feel free to reach out to me via email, especially if you want to learn about becoming an officer or joining banquet committee! "
+    },
+    {
+      name: "Jesus Ocampo",
+      role: "Webmaster",
+      email: "calpolyshpe.webmaster@gmail.com",
+      major: "Business Administration",
+      picture: "/officer_pics/2023-24/Webmaster.webp",
+      blurb:
+        "\nHello and welcome to the SHPE Officer Page :). Thank you for visiting our website and getting to know more about us! I plan to make changes and ensure our online presence is optimized to the best of our ability. I am happy to work as a part of our wonderful team and hope that you can find everything you might want from our program, whether that means connecting with other students from Cal Poly or getting involved yourself!",
+    },
+    {
+      name: "Luis Nieto",
+      role: "Alumni Relations",
+      email: "calpolyshpe.alumni@gmail.com",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2023-24/AlumniR.webp",
+      blurb:
+      "\nMy name is Luis Nieto, and I am a first-generation student born in Zacatecas, Mexico. My passion for construction and design has led me to pursue Civil Engineering as my field of study. I began my academic journey at Moorpark Community College before transferring to Cal Poly. \nOne of my most cherished experiences was working for a concrete company as a laborer. During this time, I had the incredible opportunity to collaborate with a skilled concrete crew and actively participate in building 10 residential foundations from start to finish. \nDuring the summer of 2023, I had the privilege of interning with Largo Concrete Inc. This internship provided me with invaluable field experience as a project engineer intern, further deepening my understanding of the industry. \nI am passionate about leveraging my skills and knowledge in Civil Engineering to contribute to innovative construction projects and make a positive impact in the built environment."
+    },
+    {
+      name: "Eliza Moto",
+      role: "DCAB officer",
+      email: "calpolyshpe.dcab@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2023-24/DCAB.webp",
+      blurb:
+        "\nHello everyone! I am a second year Mechanical Engineering major from Palm Springs, CA. Currently, I look forward to learning more Solidworks skills for CAD and developing my resume to earn an internship in the future. I also enjoy going to the machine shops on campus whenever I can find the time and it's always fun to bring friends in as well. When I'm not working on projects or classwork I enjoy spending most of my time with friends and family. Anything is worthwhile; from boba runs to going to the beach for a day, it's always fun. \nSHPE has been a huge part of my journey here at Cal Poly. This year as the DCAB, I am in charge of making sure SHPE is a diverse and inclusive environment for everyone. From hosting events to collaborating with other clubs, there are several ways I will achieve this and create a safe haven for students on our campus to come back to! Feel free to reach me with my email for any questions or suggestions! ",
+    },
+    {
+      name: "Angie Balderas",
+      role: "Tour Ambassador",
+      email: "calpolyshpe.membership@gmail.com",
+      major: "Aerospace",
+      picture: "/officer_pics/2023-24/TourA.webp",
+      blurb:
+        "\nAs tour ambassador, I give campus tours that emphasize available resources and my personal experiences. My goal is to show others just how capable and resilient they can be, regardless of challenges or factors that may set them aside from the crowd. Not too sure if I am supposed to say something about myself, but here it goes. I enjoy reading, going to the beach, and baking, especially if it's a new recipe. I won't ever reject any opportunity at going to Dutch Bros. ",
+    },
+    {
+      name: "Vanessa Ortiz",
+      role: "Outreach Coordinator Assistant",
+      email: "calpolyshpe.outreach@gmail.com",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2023-24/Outreach.webp",
+      blurb: `\nHey SHPE familia! I am a first-generation college student pursuing my Master’s Degree in Civil & Environmental Engineering with emphasis in Structural Engineering. My passion for my career is driven by the goal to tackle seismic retrofits in cities where access and funds are limited. \n\nAs VP of Outreach Affairs, I am in charge of overseeing SHPE\'s outreach efforts including SHPE Jr. SHPE Jr. is a program that aims to foster high school and middle school student\'s interest in STEM and provide a support system for them through scholarships and informative events. One of the biggest events that we organize for our SHPE Jr. Chapters is Noche de Ciencias. Typical outreach events that the team organizes are classroom visits, student panels, campus tours and fundraisers. My goal is to show others just how capable and resilient they can be, regardless of challenges or factors that may set them aside from the crowd. I am looking forward to developing new activities and events to help make an engineering-centric curriculum accessible to students who don\'t have the chance to explore STEM at an early age. \n\nOutside of SHPE and my studies, you can find me either at Cal Poly's machine shops creating new projects or at Starbucks working as a barista! SHPE has been a huge part of my journey here at Cal Poly, and I hope our new members can say the same. I look forward to meeting you all and having you join us at our outreach events this year!  `,
+    },
+    {
+      name: "Eduardo García",
+      role: "LeaderSHPE Chair",
+      email: "calpolyshpe.prez@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2023-24/LeaderSHPE.webp",
+      blurb:
+        "\n¡Hola Familia! My name is Eduardo Garcia, Im a second year Mechanical Engineering major from the small town of Santa Paula. Im always looking to improve aspects of my life whether in barbering skills, education, health or relationships with family and friends. As LeaderSHPE chair I hope to be able to inspire other members to do the same and strive to be the best person they can be. Feel free to reach out to me through email if you have any questions at all I’m happy to help guide you to the answer you seek and hope to see you at the next General Meeting! ",
+    },
+    {
+      name: "Adan Jose Ponce",
+      role: "Shop Tech Officer",
+      email: "calpolyshpe.sto@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2023-24/Shoptech.webp",
+      blurb:
+        "\nIn this position, I plan to organize certification tours and host work nights to build fun projects in the Cal Poly Mechanical Engineering Machine Shops. My goals for the year is to provide a fun and safe learning space for our SHPE members who are wanting to improve on their technical skills and bring about more diversity in our Machine Shops! If you have any fun project ideas feel free to send me an email (calpolyshpe.sto@gmail.com) or reach out to me at one of our SHPE meetings! ",
+    },
   ]
-  const SHPEboard24 = [
+  
+  const SHPEboard24_25 = [
     {
       name: "Kaitlyn Corral",
       role: "President",
@@ -135,7 +239,7 @@ export default function OfficerCard() {
       role: "Chapter Events",
       email: "calpolyshpe.events@gmail.com",
       major: "Civil Engineering",
-      picture: "/officer_pics/2024-25/Juan.webp",
+      picture: "/officer_pics/2024-25/juan.webp",
       blurb:
       "\nQue rollo con el pollo raza! Im Juan Rodriguez and your chapter events officer for this year. On my free time, you’ll probably find me running, drinking an iced green tea with honey, or listening to Drake while cooking. I’m also a big yapper so please feel free to ask me or conversate about anything.\n\nSHPE has not only been a club for me during my first year but a true family that shares the same value I grew up with. As your chapter events officer, I promise to make this year memorable for our family. Also, believe me, I’m working day n night getting those tactics down for the sports we will be participating in. "
     },
@@ -169,35 +273,4 @@ export default function OfficerCard() {
     
   ];
 
-  return (
-    <div className="bg-[#001F5B] flex flex-col justify-center items-center">
-      {SHPEboard24.map((officer, index) => (
-        <div
-          key={index}
-          className="hidden lg:flex justify-center items-center w-3/4 md:py-12 py-6 border-b border-white border-opacity-15"
-        >
-          <Image
-            src={officer.picture}
-            alt={officer.name}
-            width={288}
-            height={384}
-            className="w-72 h-96 max-w-full max-h-full object-cover aspect-[3/4]"
-            priority
-          />
-
-          <div className="w-[800px] h-auto flex flex-col justify-center p-6 ml-12">
-            <h1 className="text-white font-bold text-2xl font-sans mb-4">
-              {officer.role}
-            </h1>
-            <h2 className="text-white text-lg mb-2">{officer.name}</h2>
-            <h3 className="text-white text-lg mb-2">{officer.major}</h3>
-            <h4 className="text-white text-lg mb-2">{officer.email}</h4>
-            <h5 className="text-white text-lg whitespace-pre-wrap">
-              {officer.blurb}
-            </h5>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
+  export { SHPEboard23_24, SHPEboard24_25 };
