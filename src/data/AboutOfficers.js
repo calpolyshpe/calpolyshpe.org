@@ -239,7 +239,7 @@ My goal is to show others just how capable and resilient they can be, regardless
       role: "Chapter Events",
       email: "calpolyshpe.events@gmail.com",
       major: "Civil Engineering",
-      picture: "/officer_pics/2024-25/juan.webp",
+      picture: "/officer_pics/2024-25/Juan.webp",
       blurb:
       "\nQue rollo con el pollo raza! Im Juan Rodriguez and your chapter events officer for this year. On my free time, you’ll probably find me running, drinking an iced green tea with honey, or listening to Drake while cooking. I’m also a big yapper so please feel free to ask me or conversate about anything.\n\nSHPE has not only been a club for me during my first year but a true family that shares the same value I grew up with. As your chapter events officer, I promise to make this year memorable for our family. Also, believe me, I’m working day n night getting those tactics down for the sports we will be participating in. "
     },
