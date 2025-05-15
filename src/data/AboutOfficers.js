@@ -161,7 +161,7 @@ My goal is to show others just how capable and resilient they can be, regardless
       major: "Aerospace",
       picture: "/officer_pics/2024-25/Angie.webp",
       blurb:
-        "\nI have a dog named Frijol 🫘. I like listening to Karol G. My go to drink is an iced strawberry matcha or taro boba. I joined SHPE because I was part of SHPE Jr. in high school and I could tell everyone wanted to be a support system for the students. Being part of SHPE has been really fun and I’ve made a lot of memories and I hope to make many more.",
+        "\nI have a dog named Frijol 🫘. I like listening to Karol G. If you ever get a car ride from me, i can gaurentee that we will listen to Si antes te hubiera conocido! And if we go for another car ride, we'll listen to it again!! My go to drink is an iced strawberry matcha or taro boba. I joined SHPE because I was part of SHPE Jr. in high school and I could tell everyone wanted to be a support system for the students. Being part of SHPE has been really fun and I’ve made a lot of memories and I hope to make many more.",
     },
     {
       name: "Vanessa Ortiz",

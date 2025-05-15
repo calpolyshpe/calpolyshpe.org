@@ -14,6 +14,7 @@ export default function Footer() {
                     alt="SHPE Cal Poly Logo"
                 />
                 <Link href="/Members/BecomeAMember" className={`text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px]`}> Become a Member</Link>
+                <Link href="/SHPEJr" className={`text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px]`}> Outreach</Link>
                 <Link href="/officers" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] onPage"> Officers</Link>
                 <Link href="/sponsor" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px]"> Partners</Link>
                 <Link href="/about" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px]"> About Us</Link>

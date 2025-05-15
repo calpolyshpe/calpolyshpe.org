@@ -31,11 +31,6 @@ export default function Header() {
                   SHPEtina
                 </button>
               </Link>
-              <Link href="/Members/SHPEJr">
-                <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
-                  SHPE Jr.
-                </button>
-              </Link>
               <Link href="/Members/OfTheQuarter">
               <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
                   Outstanding Members
@@ -43,6 +38,11 @@ export default function Header() {
               </Link>
             </div>
           </div>
+          <Link href="/SHPEJr">
+            <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] mt-2 md:mt-0 w-16">
+              Outreach
+            </button>
+          </Link>
           <Link href="/officers">
             <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] mt-2 md:mt-0 w-16">
               Officers
@@ -86,8 +86,18 @@ export default function Header() {
                 SHPE Jr.
               </button>
             </Link>
+            <Link href="/Members/OfTheQuarter">
+              <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
+                Outstanding Members
+              </button>
+            </Link>
           </div>
         </div>
+        <Link href="/SHPEJr">
+          <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] w-full text-center px-1.5 py-2 focus:outline-none">
+            Outreach
+          </button>
+        </Link>
         <Link href="/officers">
           <button className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] w-full text-center px-1.5 py-2 focus:outline-none">
             Officers
