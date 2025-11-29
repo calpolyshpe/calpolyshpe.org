@@ -273,4 +273,10 @@ My goal is to show others just how capable and resilient they can be, regardless
     
   ];
 
-  export { SHPEboard23_24, SHPEboard24_25 };
+  const SHPEboard25_26 = [
+    {
+      blurb: "In Progress..."
+    }
+  ];
+
+  export { SHPEboard23_24, SHPEboard24_25, SHPEboard25_26 };

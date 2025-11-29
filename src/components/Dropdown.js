@@ -34,6 +34,15 @@ export default function Dropdown({ selectedYear, onYearChange }) {
               2024-25
             </a>
           </MenuItem>
+          <MenuItem>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-black hover:bg-[#FD652F] data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
+              onClick={() => onYearChange('2025-26')}
+            >
+              2025-26
+            </a>
+          </MenuItem>
         </div>
       </MenuItems>
     </Menu>

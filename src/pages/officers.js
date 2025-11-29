@@ -9,7 +9,8 @@ export default function Officers() {
   const officersToDisplay = selectedYear === '2024-25' ? SHPEboard24_25 : SHPEboard23_24;
   const heroImage = selectedYear === '2024-25' 
     ? "/officer_pics/2024-25/GroupOfficers.jpg" 
-    : "/HomeImgs/Mainpage_GroupPhoto.jpeg";
+    : "/HomeImgs/GroupPhoto.jpeg";
+    // ! "/officer_pics/2025-26/GroupOfficers"
 
   return (
     <main className="overflow-x-hidden"> {/* Prevent horizontal scrolling */}
