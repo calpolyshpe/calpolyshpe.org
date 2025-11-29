@@ -5,47 +5,47 @@ export default function InstagramFeed() {
     {
       src: "/InstagramImgs/post_1.png",
       alt: "Post 1",
-      link: "https://www.instagram.com/p/DFyRLnwzNFu/",
+      link: "https://www.instagram.com/p/DRV1l8EEas6/?img_index=1",
     },
     {
       src: "/InstagramImgs/post_2.png",
       alt: "Post 2",
-      link: "https://www.instagram.com/shpecalpoly/p/DFowdf4RCm0/",
+      link: "https://www.instagram.com/p/DRLGm_AkprD/",
     },
     {
       src: "/InstagramImgs/post_3.png",
       alt: "Post 3",
-      link: "https://www.instagram.com/p/DFoK4sYyAAd/",
+      link: "https://www.instagram.com/p/DQ8FLlrCVd-/",
     },
     {
       src: "/InstagramImgs/post_4.png",
       alt: "Post 4",
-      link: "https://www.instagram.com/shpecalpoly/p/DFhFNOzRnQF/",
+      link: "https://www.instagram.com/p/DQ5Oh11ktMq/",
     },
     {
       src: "/InstagramImgs/post_5.png",
       alt: "Post 5",
-      link: "https://www.instagram.com/shpecalpoly/p/DFazd4iyJWI/",
+      link: "https://www.instagram.com/p/DQ5Nh-PEiVX/",
     },
     {
       src: "/InstagramImgs/post_6.png",
       alt: "Post 6",
-      link: "https://www.instagram.com/p/DFYlKizzxeU/",
+      link: "https://www.instagram.com/p/DQ3FyCaEQN1/",
     },
     {
       src: "/InstagramImgs/post_7.png",
       alt: "Post 7",
-      link: "https://www.instagram.com/shpecalpoly/p/DFWgz2yvOhb/",
+      link: "https://www.instagram.com/p/DQ3FHspkVcV/",
     },
     {
       src: "/InstagramImgs/post_8.png",
       alt: "Post 8",
-      link: "https://www.instagram.com/p/DFVo9UDS3Px/",
+      link: "https://www.instagram.com/p/DQpveH2kkyR/?img_index=1",
     },
     {
       src: "/InstagramImgs/post_9.png",
       alt: "Post 9",
-      link: "https://www.instagram.com/p/DFGTun6Rd1Z/",
+      link: "https://www.instagram.com/p/DQlXzmsESSN/",
     },
   ];
 
