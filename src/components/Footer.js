@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import { FaInstagram, FaDiscord, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaSlack } from "react-icons/fa";
 
 export default function Footer() {
 
@@ -18,8 +18,9 @@ export default function Footer() {
                 <Link href="/officers" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px] onPage"> Officers</Link>
                 <Link href="/sponsor" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px]"> Partners</Link>
                 <Link href="/about" className="text-white hover:text-[#8f8f8f] lg:text-[14px] text-[11px]"> About Us</Link>
-                <a href='https://discord.gg/vTtAc29KkR'>
-                    <FaDiscord className='text-white w-7 h-auto' />
+                
+                <a href='https://join.slack.com/t/shpecalpoly/shared_invite/zt-3jtsykpae-jJhdnRJe3pf8cj~fRDleBQ'>
+                    <FaSlack className='text-white w-7 h-auto' />
                 </a>
                 <a href='https://www.instagram.com/shpecalpoly/?hl=en'>
                     <FaInstagram className='text-white w-7 h-auto' />
@@ -34,8 +35,8 @@ export default function Footer() {
                     className="w-1/5 h-auto"
                     alt="SHPE Cal Poly Logo"
                 />
-                <a href='https://discord.gg/vTtAc29KkR'>
-                    <FaDiscord className='text-white w-4 h-auto' />
+                <a href='https://join.slack.com/t/shpecalpoly/shared_invite/zt-3jtsykpae-jJhdnRJe3pf8cj~fRDleBQ'>
+                    <FaSlack className='text-white w-7 h-auto' />
                 </a>
                 <a href='https://www.instagram.com/shpecalpoly/?hl=en'>
                     <FaInstagram className='text-white w-4 h-auto' />
