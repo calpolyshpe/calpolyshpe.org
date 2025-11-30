@@ -2,15 +2,21 @@ import { useState } from "react";
 import Image from "next/image";
 import HeroBanner from "@/components/HeroBanner";
 import Dropdown from "@/components/Dropdown";
-import { SHPEboard23_24, SHPEboard24_25 } from "@/data/AboutOfficers";
+import { SHPEboard23_24, SHPEboard24_25, SHPEboard25_26 } from "@/data/AboutOfficers";
 
 export default function Officers() {
   const [selectedYear, setSelectedYear] = useState('2024-25');
-  const officersToDisplay = selectedYear === '2024-25' ? SHPEboard24_25 : SHPEboard23_24;
-  const heroImage = selectedYear === '2024-25' 
-    ? "/officer_pics/2024-25/GroupOfficers.jpg" 
-    : "/HomeImgs/GroupPhoto.jpeg";
-    // ! "/officer_pics/2025-26/GroupOfficers"
+  const officersToDisplay = selectedYear === '2023-24'
+    ? SHPEboard23_24
+    : selectedYear === '2024-25'
+    ? SHPEboard24_25
+    : SHPEboard25_26;   // used when selectedYear === '2025-26'
+  const heroImage = selectedYear === '2023-24'
+    ? "/HomeImgs/GroupPhoto.jpeg"
+    : selectedYear === '2024-25'
+    ? "/officer_pics/2024-25/GroupOfficers.jpg"
+    : "/officer_pics/2025-26/GroupOfficers2526.jpg";
+
 
   return (
     <main className="overflow-x-hidden"> {/* Prevent horizontal scrolling */}

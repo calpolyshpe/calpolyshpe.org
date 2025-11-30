@@ -273,10 +273,193 @@ My goal is to show others just how capable and resilient they can be, regardless
     
   ];
 
+  //New Board 2025-26
+  //
+  //
+  //
+  //
+  //
+
   const SHPEboard25_26 = [
     {
-      blurb: "In Progress..."
-    }
+      name: "Kaitlyn Corral",
+      role: "President",
+      email: "calpolyshpe.prez@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2024-25/Kaitlyn.webp",
+      blurb:
+        "\nHi everyone, my name is Kaitlyn Corral and I am the SHPE President for the '25-'26 academic school year! I am in my third year of industrial engineering and am originally from Bakersfield, CA. Outside of SHPE, I am a Shop Technician for the Mustang Machine Shops. Stop by and you might see me working! \n\nI am thrilled to play such an important role in a club that means so much to me! Before officially attending Cal Poly I had the opportunity to get the SHPE experience and knew that SHPE Cal Poly was where I was meant to be. This year, I have goals of increasing our club membership and retention and growing our SHPEtina community. I hope that you consider being a part of SHPE and joining our Familia!",
+    },
+    {
+      name: "Alanis Marsh",
+      role: "Director of Corporate Affairs",
+      email: "calpolyshpe.vp@gmail.com",
+      major: "Computer Science",
+      picture: "/officer_pics/2024-25/Lani.webp",
+      blurb:
+        "\nHi everyone! My name is Alanis Marsh, but I usually go by Lani, and I’m the Director of Corporate Affairs for this school year. I’m a fourth-year Computer Science student from San Diego. In my free time, I love rock climbing at The Pad, reading, listening to music, and playing video games. A fun fact about my family is that my Nana came to the U.S. through Operación Pedro Pan, and she just published a book about her experience! My role at SHPE is to bring in companies, manage our professional connections, and raise money for our club through corporate sponsorship. I also manage the corporate team which is in charge of various events like professional development workshops and the alumni panel. My goal this year is to create professional opportunities for our members by connecting them with companies and helping them prepare for internships and full-time jobs. I want to make sure everyone has the support and resources to succeed in their field.",
+    },
+    {
+      name: "Natalia Trigueros",
+      role: "Director of Internal Affairs",
+      email: "calpolyshpe.membership@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2025-26/NataliaTrigueros.jpg",
+      blurb:
+        "\nMy name is Natalia, and I'm this year's Director of Internal Affairs for SHPE! I have several hobbies, including reading, going to the gym, and going to the beach. My favorite hobby is making coffee, especially espresso. I love learning new techniques on how to pull the perfect espresso shot, making latte art, which roasts are the best for my palette, and making delicious syrups and cold foams for my lattes. As Director of Internal Affairs, I'll be coordinating the MentorSHPE/Familia Program as well as planning fun and social events for SHPE members to enjoy. I plan to provide exciting and enriching events to students who are looking to decompress, as well as helpful academic resources through the hard work of my team.",
+    },
+    {
+      name: "Roberto Carmona-Gijon",
+      role: "Director of Community Affairs",
+      email: "calpolyshpe.outreach@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2024-25/Roberto.webp",
+      blurb: `\nHello everyone, my name is Roberto Carmona-Gijon and I am this year's Director Of community affairs for this year. I am a 3rd year mechanical engineering major with a concentration in manufacturing. I am from Santa Maria, CA. Other then SHPE I love music, hanging out with friends, and Love Cartoons. I am so excited to be this years Dir. of Community affairs as SHPE has been part of my life since I was a junior year of high school when I first joined my SHPE Jr chapter and since then I have loved the energy and community that It brings that is the reason why I decided to join SHPE at Cal Poly to make sure that i have that same sense of community with people that share the same background and goals as me and to bring that same community to other younger students.  `,
+    },
+    {
+      name: "Isabella Pelayo",
+      role: "Secretary",
+      email: "calpolyshpe.sec@gmail.com",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2025-26/IsabellaPelayo.jpg",
+      blurb:
+      "\nMy name is Isabella Pelayo and I am this year's secretary. My hobbies include cooking new recipes and discovering new spots to hike. Some key responsibilities include recording meeting minutes, organizing fall and spring elections, and coordinating the SHPE annual banquet. My goals for this year as secretary of SHPE include maintaining organized records of all chapter meetings and events, ensuring clear communication across our board and general members.  "
+    },
+    {
+      name: "Andrew Apatiga",
+      role: "Treasurer",
+      email: "calpolyshpe.treasurer@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2024-25/Andrew.webp",
+      blurb:
+        "\nHello! My name is Andrew Apatiga, and I’m a 4th-year Mechanical Engineering student at Cal Poly SLO. I’m excited to serve as Treasurer for the 2025–2026 school year and be part of the SHPE board! A few fun facts about me, I love to fish, spend time outdoors, and I’ve completed a half marathon. As Treasurer, my main goal is to ensure a successful 2025 SHPE Nationals trip while maintaining a strong budget for next year’s board.",
+    },
+    {
+      name: "Eddy Resendiz",
+      role: "Webmaster",
+      email: "calpolyshpe.webmaster@gmail.com",
+      major: "Computer Science",
+      picture: "/officer_pics/2024-25/Eddy.webp",
+      blurb:
+        "\nHi! My name is Eddy Resendiz. I'm a third year Computer Science major, and currently I serve as Webmaster for Cal Poly SHPE. My role as Webmaster includes maintaining and up keeping our Slack and online website, keeping track of member points, creating the general meeting slides, and much more. In other words, if you're reading this, I updated the website to include our officers for the 2025-26 year. My hobbies include going to the gym, trying new foods, playing soccer/volleyball, and hiking. I hope to make improvements for the website to make it more modern, and help expand our chapter's online presence.",
+    },
+    {
+      name: "Joycelene Meza ",
+      role: "Public Relations",
+      email: "calpolyshpe.pr@gmail.com",
+      major: "Computer Science ",
+      picture: "/officer_pics/2025-26/JoyMeza.jpg",
+      blurb:
+        "\nI like reading, playing video games, and going to the gym! For my position in SHPE, I am the person who is responsible for managing the SHPE social media accounts, which include the Instagram and TikTok. I create flyers/posts for all SHPE events and send out our weekly Newsletter throughout the year. My goals for SHPE is to get more student involvement and participation in SHPE events and do my best with the marketing of our club.",
+    },
+    {
+      name: "Leslie Jimenez",
+      role: "SHPEtina Representative",
+      email: "calpolyshpe.tinas@gmail.com",
+      major: "Biomedical Engineering",
+      picture: "/officer_pics/2025-26/LeslieJimenez.jpg",
+      blurb:
+      "\nMy name is Leslie Jimenez, and I'll be your SHPEtina Rep for 2025-26! In my free time, I really enjoy writing poetry, painting, and baking. I also really like running and hiking. As your SHPEtina Rep, I know it can be daunting to study at a PWI. My goal is to ensure SHPE feels like your familia away from home, a safe space where everyone feels welcomed, included, and empowered. To me, a huge part of that is by prioritizing mental and emotional health by helping students find the resources they need to feel supported, valued and understood."
+    },
+    {
+      name: "Joshua Salinas",
+      role: "Corporate Relations",
+      email: "calpolyshpe.partnerships@gmail.com",
+      major: "Electrical Engineering",
+      picture: "/officer_pics/2025-26/JoshSalinas.jpg",
+      blurb:
+        "\nMy name is Josh Salinas, I am the current Corporate Relations officer for SHPE Cal Poly. I enjoy spending my free time surfing, golfing, exercising, or on vacation. On top of studying Electrical Engineering I work part time for In N Out burger. I hope to bring meaningful industry connections to our chapter in order to ensure our members have adequate opportunities to connect with industrial professionals.",
+    },
+    {
+      name: "Ilene Meza",
+      role: "Corporate Assistant",
+      email: "calpolyshpe.cto@gmail.com",
+      major: "Architecture",
+      picture: "/officer_pics/2025-26/IleneMeza.jpg",
+      blurb:
+        "\nI love reading, crocheting, playing video games, watching baseball and Formula 1. Some fun facts about me are that I have traveled to 8 different countries and my favorite animal is a sea otter. My position is mainly organizing and planning the professional development workshops for SHPE members in order to prepare them for the professional field. Some of my goals for SHPE this year is to get more students involved in the club events and plan at least 2 workshops per quarter. ",
+    },
+    {
+      name: "Marc Anthony Colores",
+      role: "Alumni Relations",
+      email: "calpolyshpe.alumni@gmail.com",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2025-26/MarcColores.jpg",
+      blurb:
+      "\nHi, my name is Marc Colores. I am Cal Poly SHPE's Alumni Relations Officer. I like walking, music, exploring areas like SLO and nature, and I am looking to get into some art as well. As the Alumni Relation Officer, I manage the LinkedIn and converse with our previous members for events like the Alumni Panel. I hope to expand the roles that this position has through establishing a high quality newsletter for our alumni to be informed about our club and thus remain interested in our activities.  "
+    },
+    {
+      name: "Yanneli Santos",
+      role: "DEI Chair",
+      email: "calpolyshpe.dcab@gmail.com",
+      major: "\nCivil Engineering",
+      picture: "/officer_pics/2024-25/yanneli.webp",
+      blurb:
+        "\nI am an incoming 3rd year civil engineering student from Lompoc, CA & Jalisco, Mex. I enjoy spending quality time with my friends and my family. I lived in Jalisco for 7 years and my direct family lives there so I go back as often as I can.\n\nSince Spring Quarter of 2023 I've been a Student Assistant for the Latinx Center (La CASA) and our main focus is to provide resources to students and create a community on campus. I decided to join SHPE and take the DCAB role mainly to continue on doing what I do in my current job which is support students and make them feel welcome. I made a lot of friends through SHPE and the club also provides a lot of opportunities for your success so I would suggest to take advantage of them, and if you have any questions feel free to come up to me or any of the other officers and we'll do our best to help. I can't wait to see what amazing things SHPE has stored for this 2024-2025 academic year!",
+    },
+    {
+      name: "Oswaldo Barragan ",
+      role: "Academics Chair",
+      email: "",
+      major: "Mechanical Engineering ",
+      picture: "/officer_pics/2024-25/Oswaldo.webp",
+      blurb:
+        "\nMy name is Oswaldo Barragan and I’m from Hawaiian Gardens, CA. Somethings I enjoy doing is going to the gym and fishing. What I like most about SHPE is the community it provides as I have met some of my close friends here. I was fortunate enough to have been chosen as this years academic officer which I am extremely excited for. My goal as an academic officer is to help at least one individual overall improve their grades and have a successful school year. Following post graduation, I would like to get into the oil industry and hopefully work my way into being an offshore subsea engineer. ",
+    },
+    {
+      name: "Juan Rodriguez",
+      role: "Athletics Chair",
+      email: "calpolyshpe.events@gmail.com",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2024-25/Juan.webp",
+      blurb:
+      "\nQue rollo con el pollo raza! Im Juan Rodriguez and your chapter events officer for this year. On my free time, you’ll probably find me running, drinking an iced green tea with honey, or listening to Drake while cooking. I’m also a big yapper so please feel free to ask me or conversate about anything.\n\nSHPE has not only been a club for me during my first year but a true family that shares the same value I grew up with. As your chapter events officer, I promise to make this year memorable for our family. Also, believe me, I’m working day n night getting those tactics down for the sports we will be participating in. "
+    },
+    {
+      name: "Andrew Apatiga",
+      role: "Transfer Representative",
+      email: "calpolyshpe.trep@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2024-25/Andrew.webp",
+      blurb:
+      "\nHey everyone, my name is Andrew Apatiga and I will be your 24'-25' SHPE Transfer Rep. I am a third year transfer student majoring in mechanical engineering. In my free time, I enjoy  bouldering, listening to music, thrifting, and hanging with friends!\n\nApart from the professional aspect of SHPE, the club has really helped me in building strong friendships and connections. As the Transfer Rep, I hope to provide the same opportunities to transfer students that SHPE has given me. I’m excited to see what this year holds and look forward to making it a great one together!"
+    },
+    {
+      name: "Yazmin Mejia Aguilar",
+      role: "Freshman Representative",
+      email: "calpolyshpe.freshmanrep@gmail.com",
+      major: "Mechanical Engineering",
+      picture: "/officer_pics/2024-25/Yazmin.webp",
+      blurb:
+      "\nMy hometown is Bakersfield, California. Some of my hobbies include playing tennis, going on walks, and watching Disney movies. My ideal future career would be in the automotive industry. Being in SHPE will help me accomplish many of my career goals. The networking provided through company representatives at meetings is what I like the most about SHPE. I hope to get more students into SHPE in order for them to take advantage of all the opportunities in this great organization."
+    },
+    {
+      name: "Daisy Picazo",
+      role: "Community Assistant",
+      email: "calpolyshpe.oc.assistant@gmail.com",
+      major: "Aerospace Engineering",
+      picture: "/officer_pics/2025-26/DaisyPicazo.jpeg",
+      blurb:
+      "\nHi everyone my name is Daisy Picazo and I am this years Community Assistant. Some of my hobbies include going to the gym and playing soccer. A fun fact about me is that I used to be a ballerina. As community assistant I am to assistant to the Director of Community Affairs as well as plan and coordinate pre-outreach event workshops for members. One of my goals this year is to have more outreach events and expand our SHPE JR. chapters to other schools! "
+    },
+    {
+      name: "Samantha Sierra",
+      role: "SHPE Jr. Chair",
+      email: "shpejr.calpoly@gmail.com",
+      major: "Mechanical engineering ",
+      picture: "/officer_pics/2025-26/SamSierra.jpg",
+      blurb:
+        "\nMy name is Samantha Sierra! I'm a second-year mechanical engineering student, I serve as the SHPE Jr. Chair, at Cal Poly's Chapter. Fun Fact, I have a minor in ethnic studies, and I love to watch movies! My goals as SHPE Jr. Chair, is to have fun, engaging original events across all of our SHPE Jr. outreach events!",
+    },
+    {
+      name: "Jacob Joseph Merida",
+      role: "Tour Ambassador",
+      email: "calpolyshpe.ambassadors@gmail.com",
+      major: "Electrical Engineering",
+      picture: "/officer_pics/2025-26/JacobMerida.jpg",
+      blurb:
+      "\nHi everyone! My name is Jacob Merida and I'm your Tour Ambassador for the 2025-2026 school year! My position is pretty self explanatory, I give all the tours for SHPE Jr. chapters and other high schools in the area! I love reading, particularly science fiction, but can be caught playing video games from time to time. A fun fact about me is I am majority native Central American!! "
+    },
   ];
 
   export { SHPEboard23_24, SHPEboard24_25, SHPEboard25_26 };
