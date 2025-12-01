@@ -5,7 +5,7 @@ import Dropdown from "@/components/Dropdown";
 import { SHPEboard23_24, SHPEboard24_25, SHPEboard25_26 } from "@/data/AboutOfficers";
 
 export default function Officers() {
-  const [selectedYear, setSelectedYear] = useState('2024-25');
+  const [selectedYear, setSelectedYear] = useState('2025-26');
   const officersToDisplay = selectedYear === '2023-24'
     ? SHPEboard23_24
     : selectedYear === '2024-25'
