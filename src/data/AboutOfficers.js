@@ -389,40 +389,40 @@ My goal is to show others just how capable and resilient they can be, regardless
       "\nHi, my name is Marc Colores. I am Cal Poly SHPE's Alumni Relations Officer. I like walking, music, exploring areas like SLO and nature, and I am looking to get into some art as well. As the Alumni Relation Officer, I manage the LinkedIn and converse with our previous members for events like the Alumni Panel. I hope to expand the roles that this position has through establishing a high quality newsletter for our alumni to be informed about our club and thus remain interested in our activities.  "
     },
     {
-      name: "Yanneli Santos",
+      name: "Ximena Rosas-Fajardo",
       role: "DEI Chair",
       email: "calpolyshpe.dcab@gmail.com",
-      major: "\nCivil Engineering",
-      picture: "/officer_pics/2024-25/yanneli.webp",
+      major: "\nMaterials Engineering",
+      picture: "/officer_pics/2025-26/XimenaRosas-Fajardo.jpg",
       blurb:
-        "\nI am an incoming 3rd year civil engineering student from Lompoc, CA & Jalisco, Mex. I enjoy spending quality time with my friends and my family. I lived in Jalisco for 7 years and my direct family lives there so I go back as often as I can.\n\nSince Spring Quarter of 2023 I've been a Student Assistant for the Latinx Center (La CASA) and our main focus is to provide resources to students and create a community on campus. I decided to join SHPE and take the DCAB role mainly to continue on doing what I do in my current job which is support students and make them feel welcome. I made a lot of friends through SHPE and the club also provides a lot of opportunities for your success so I would suggest to take advantage of them, and if you have any questions feel free to come up to me or any of the other officers and we'll do our best to help. I can't wait to see what amazing things SHPE has stored for this 2024-2025 academic year!",
+        "\nHello, my name is Ximena Rosas-Fajardo this year's DEI Chair! Outside of SHPE I enjoy being active, creative, and spending time with friends. I'm a student researcher with Campus Health & Wellbeing which has helped me in my role as DEI Chair. I hope to bring different clubs together with SHPE in order to creative inclusivity for all majors!",
     },
     {
-      name: "Oswaldo Barragan ",
+      name: "Steve Madera ",
       role: "Academics Chair",
-      email: "",
+      email: "calpolyshpe.academics@gmail.com",
       major: "Mechanical Engineering ",
-      picture: "/officer_pics/2024-25/Oswaldo.webp",
+      picture: "/officer_pics/2025-26/SteveMadera.jpeg",
       blurb:
-        "\nMy name is Oswaldo Barragan and I’m from Hawaiian Gardens, CA. Somethings I enjoy doing is going to the gym and fishing. What I like most about SHPE is the community it provides as I have met some of my close friends here. I was fortunate enough to have been chosen as this years academic officer which I am extremely excited for. My goal as an academic officer is to help at least one individual overall improve their grades and have a successful school year. Following post graduation, I would like to get into the oil industry and hopefully work my way into being an offshore subsea engineer. ",
+        "\nHey, my name is Steve and I’ll be serving as the Academics Chair for SHPE this year! Some of my hobbies include playing piano, guitar, learning foreign languages, and going to the beach with my friends. As Academics Chair, my role in SHPE is to provide resources for our members that will help them excel in coursework. This includes study sessions and scholarships. My goals for this year are to host more events focused on things like mental health, time management, and other factors that also affect grades. ",
     },
     {
-      name: "Juan Rodriguez",
+      name: "Aaron Delgado",
       role: "Athletics Chair",
       email: "calpolyshpe.events@gmail.com",
-      major: "Civil Engineering",
-      picture: "/officer_pics/2024-25/Juan.webp",
+      major: "Electrical Engineering",
+      picture: "/officer_pics/2025-26/AaronDelgado.jpeg",
       blurb:
-      "\nQue rollo con el pollo raza! Im Juan Rodriguez and your chapter events officer for this year. On my free time, you’ll probably find me running, drinking an iced green tea with honey, or listening to Drake while cooking. I’m also a big yapper so please feel free to ask me or conversate about anything.\n\nSHPE has not only been a club for me during my first year but a true family that shares the same value I grew up with. As your chapter events officer, I promise to make this year memorable for our family. Also, believe me, I’m working day n night getting those tactics down for the sports we will be participating in. "
+      "\nMy name is Aaron Delgado. I am the athletics chair of SHPE. I general like doing outdoor/exercising activities like basketball or running :). Also have a huge hobby for LEGO building. Would have a bigger collection if it wasn’t expensive. I want to make the sports teams more inclusive to have activities outside of just intramural sports. "
     },
     {
-      name: "Andrew Apatiga",
+      name: "Kevin Bautista",
       role: "Transfer Representative",
       email: "calpolyshpe.trep@gmail.com",
       major: "Mechanical Engineering",
-      picture: "/officer_pics/2024-25/Andrew.webp",
+      picture: "/officer_pics/2025-26/KevinBautista.jpg",
       blurb:
-      "\nHey everyone, my name is Andrew Apatiga and I will be your 24'-25' SHPE Transfer Rep. I am a third year transfer student majoring in mechanical engineering. In my free time, I enjoy  bouldering, listening to music, thrifting, and hanging with friends!\n\nApart from the professional aspect of SHPE, the club has really helped me in building strong friendships and connections. As the Transfer Rep, I hope to provide the same opportunities to transfer students that SHPE has given me. I’m excited to see what this year holds and look forward to making it a great one together!"
+      "\nHey everyone! My name is Kevin Bautista and I am this years Transfer Representative. I am a transfer student majoring in Mechanical Engineering with a Manufacturing Concentration. In my free time I like to listen to music, work on cars, stay active, and hang out with my friends! As the Transfer Rep, my goal is to support transfer students by creating opportunities to connect, get involved, and feel a strong sense of community within SHPE. "
     },
     {
       name: "Yazmin Mejia Aguilar",
