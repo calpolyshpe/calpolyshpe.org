@@ -64,6 +64,8 @@ export default function OfTheQuarter() {
       Keep showing up, stay engaged, and next time, it could be you being recognized!
     </p>
   </div>
+      <div className="w-3/4 border-b border-white border-opacity-40 mt-6"></div>
+
 </div>
 
       <MemberCard members={members} />
