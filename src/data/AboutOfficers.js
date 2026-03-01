@@ -288,7 +288,7 @@ My goal is to show others just how capable and resilient they can be, regardless
       major: "Mechanical Engineering",
       picture: "/officer_pics/2024-25/Kaitlyn.webp",
       blurb:
-        "\nHi everyone, my name is Kaitlyn Corral and I am the SHPE President for the '25-'26 academic school year! I am in my third year of industrial engineering and am originally from Bakersfield, CA. Outside of SHPE, I am a Shop Technician for the Mustang Machine Shops. Stop by and you might see me working! \n\nI am thrilled to play such an important role in a club that means so much to me! Before officially attending Cal Poly I had the opportunity to get the SHPE experience and knew that SHPE Cal Poly was where I was meant to be. This year, I have goals of increasing our club membership and retention and growing our SHPEtina community. I hope that you consider being a part of SHPE and joining our Familia!",
+        "\nHi everyone! MY name is Kaitlyn Corral and I am honored to be returning as the SHPE President for the '25-'26 academic school year! I am a third year Industrial Engineering student originally from Bakersfield, CA. Outside of SHPE, I work as a Shop Technician for the Mustang Machine Shops and am a member of the Systems Optimization Club. Stop by the shops and you might see me working! \n\n Serving as President this past year has been an incredibly rewarding experience and has deepened my appreciation for the impact SHPE has on our members and community. Returning for a second term, my focus is on building upon the foundation we've established; strengthening member engagement, improving retention, and continuing to grow and support our SHPEtina community. SHPE is more than a club on campus, it's a familia! And I'm honored to continue leading it.",
     },
     {
       name: "Alanis Marsh",
@@ -352,6 +352,7 @@ My goal is to show others just how capable and resilient they can be, regardless
       blurb:
         "\nI like reading, playing video games, and going to the gym! For my position in SHPE, I am the person who is responsible for managing the SHPE social media accounts, which include the Instagram and TikTok. I create flyers/posts for all SHPE events and send out our weekly Newsletter throughout the year. My goals for SHPE is to get more student involvement and participation in SHPE events and do my best with the marketing of our club.",
     },
+    /*
     {
       name: "Leslie Jimenez",
       role: "SHPEtina Representative",
@@ -361,6 +362,7 @@ My goal is to show others just how capable and resilient they can be, regardless
       blurb:
       "\nMy name is Leslie Jimenez, and I'll be your SHPEtina Rep for 2025-26! In my free time, I really enjoy writing poetry, painting, and baking. I also really like running and hiking. As your SHPEtina Rep, I know it can be daunting to study at a PWI. My goal is to ensure SHPE feels like your familia away from home, a safe space where everyone feels welcomed, included, and empowered. To me, a huge part of that is by prioritizing mental and emotional health by helping students find the resources they need to feel supported, valued and understood."
     },
+    */
     {
       name: "Joshua Salinas",
       role: "Corporate Relations",
@@ -425,13 +427,13 @@ My goal is to show others just how capable and resilient they can be, regardless
       "\nHey everyone! My name is Kevin Bautista and I am this years Transfer Representative. I am a transfer student majoring in Mechanical Engineering with a Manufacturing Concentration. In my free time I like to listen to music, work on cars, stay active, and hang out with my friends! As the Transfer Rep, my goal is to support transfer students by creating opportunities to connect, get involved, and feel a strong sense of community within SHPE. "
     },
     {
-      name: "Yazmin Mejia Aguilar",
+      name: "Anderson Pastor",
       role: "Freshman Representative",
       email: "calpolyshpe.freshmanrep@gmail.com",
-      major: "Mechanical Engineering",
-      picture: "/officer_pics/2024-25/Yazmin.webp",
+      major: "Civil Engineering",
+      picture: "/officer_pics/2025-26/AndersonPastor.jpeg",
       blurb:
-      "\nMy hometown is Bakersfield, California. Some of my hobbies include playing tennis, going on walks, and watching Disney movies. My ideal future career would be in the automotive industry. Being in SHPE will help me accomplish many of my career goals. The networking provided through company representatives at meetings is what I like the most about SHPE. I hope to get more students into SHPE in order for them to take advantage of all the opportunities in this great organization."
+      "\nI'm Anderson Pastor, and I'm the Freshman Representative for SHPE. Outside of academics, I'm passionate about soccer - I love both playing and watching the game. A fun fact about me is that I grew up in Guatemala. As Freshman Representative, my goal is to be a strong voice for our incoming class, helping fellow freshmen navigate their first year while building connections within SHPE. I want to create an inclusive environment where freshmen feel welcomed and supported."
     },
     {
       name: "Daisy Picazo",
