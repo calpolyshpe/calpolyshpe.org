@@ -33,7 +33,12 @@ export default function Header() {
               </Link>
               <Link href="/Members/OfTheQuarter">
               <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
-                  Outstanding Members
+                  Member of the Quarter
+                </button>
+              </Link>
+              <Link href="/Members/OfTheYear">
+              <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
+                  Member of the Year
                 </button>
               </Link>
             </div>
@@ -83,7 +88,7 @@ export default function Header() {
             </Link>
             <Link href="/Members/OfTheQuarter">
               <button className="block text-left px-4 py-1 text-black hover:bg-[#FD652F] w-full">
-                Outstanding Members
+                Member of the Quarter
               </button>
             </Link>
           </div>
