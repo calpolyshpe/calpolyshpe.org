@@ -16,7 +16,7 @@ export default function OfTheYear() {
     <main>
       <div className="bg-[#001F5B] flex flex-col items-center justify-center">
   <h1 className="text-white lg:text-5xl md:text-3xl text-sm border-b border-white border-opacity-50 w-3/4 p-5 items-center font-extrabold text-center font-sans">
-    Member of the Quarter
+    Member of the Year
   </h1>
 
   <div className="w-3/4 text-white text-center mt-6 mb-10 text-lg leading-relaxed">
