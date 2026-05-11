@@ -285,7 +285,7 @@ My goal is to show others just how capable and resilient they can be, regardless
       name: "Kaitlyn Corral",
       role: "President",
       email: "calpolyshpe.prez@gmail.com",
-      major: "Mechanical Engineering",
+      major: "Industrial Engineering",
       picture: "/officer_pics/2024-25/Kaitlyn.webp",
       blurb:
         "\nHi everyone! MY name is Kaitlyn Corral and I am honored to be returning as the SHPE President for the '25-'26 academic school year! I am a third year Industrial Engineering student originally from Bakersfield, CA. Outside of SHPE, I work as a Shop Technician for the Mustang Machine Shops and am a member of the Systems Optimization Club. Stop by the shops and you might see me working! \n\n Serving as President this past year has been an incredibly rewarding experience and has deepened my appreciation for the impact SHPE has on our members and community. Returning for a second term, my focus is on building upon the foundation we've established; strengthening member engagement, improving retention, and continuing to grow and support our SHPEtina community. SHPE is more than a club on campus, it's a familia! And I'm honored to continue leading it.",
